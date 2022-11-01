@@ -1,9 +1,4 @@
-.bakgrunn {
-    background-image: url(../bilder/headers/location6.jpg);
-    background-size: cover;
-    min-height: 600px;
-    display: flex;
-}
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 
 
 * {
