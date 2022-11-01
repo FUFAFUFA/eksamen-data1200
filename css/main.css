@@ -16,11 +16,11 @@
 }
 
 .menu-item {
-    display: flex;
-    width: 50%;
-    list-style-type: none;
-    padding: 0 1rem;
-    margin: 0 0 1rem;
+display: flex;
+width: 50%;
+list-style-type: none;
+padding: 0 1rem;
+margin: 0 0 1rem;
 }
 
 section {
@@ -41,20 +41,11 @@ width: 100%;
 height: 1px;
 margin: 0 .5rem;
 border-bottom: 1px dashed black;
- flex: 1;
+flex: 1;
 }
   
 h1 {
 margin: 0;
 font-size: 1rem;
-}
-
-.col-container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: stretch;
-	align-content: stretch;
 }
 
