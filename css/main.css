@@ -1,5 +1,9 @@
 .bakgrunn {
-    background-image: url(../bilder/pizza.jpg);
+    background-image: url(../bilder/headers/location6.jpg);
     background-size: cover;
+    min-height: 600px;
+    display: flex;
 }
+
+
 
