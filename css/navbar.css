@@ -21,12 +21,12 @@ nav ul li {
 }
 
 nav ul li a{
-    color: black;
+    color: #283618;
     text-decoration: none; /*fjerner strek under liste elementene */
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Black Han Sans', sans-serif;
 }
 
 nav ul li a:hover{
-    color: red;
+    color: #606C38;
 }
  
