@@ -34,7 +34,7 @@ flex: 1;
 header {
 display: flex;
 width: 100%;
-justify-content: center;
+justify-content:center;
 align-items: center;
 }
 
@@ -51,8 +51,6 @@ h1 {
 margin: 0;
 font-size: 1rem;
 }
-
-<<<<<<< HEAD
 .col-container {
 	display: flex;
 	flex-direction: row;
@@ -64,7 +62,8 @@ font-size: 1rem;
 
 .bakgrunn {
 
-  position: relative;
+ position: relative;
+ width: 100%;
   text-align: center;
 }
 
@@ -83,7 +82,3 @@ font-size: 1rem;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-
-=======
->>>>>>> b2195732b762b60d154738c51b5295791bc365c9
