@@ -30,6 +30,7 @@ display: flex;
 flex-direction: column;
 flex: 1;
 }
+
 header {
 display: flex;
 width: 100%;
@@ -51,3 +52,38 @@ margin: 0;
 font-size: 1rem;
 }
 
+<<<<<<< HEAD
+.col-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.bakgrunn {
+
+  position: relative;
+  text-align: center;
+}
+
+.tittel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 100px;
+  white-space: nowrap;
+}
+
+.knapp {
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+=======
+>>>>>>> b2195732b762b60d154738c51b5295791bc365c9
