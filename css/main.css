@@ -92,3 +92,24 @@ font-size: 1rem;
 	align-content: stretch;
 }
 
+.bakgrunn {
+
+  position: relative;
+  text-align: center;
+}
+
+.tittel {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.knapp {
+  position: absolute;
+  bottom: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
