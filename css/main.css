@@ -4,6 +4,7 @@
 body {
   background-color: #FEFAE0;
   font-family: 'IBM Plex Mono', monospace;
+  margin:0;
 }
 * {
   box-sizing: border-box;
@@ -91,4 +92,16 @@ font-size: 1rem;
   background-color: #606c38;
   padding: 15px 32px;
   color: #283618;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+header {
+  background-image: url("/bilder/bakgrunn1.png");
+  background-position:center ;
+  height:auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
 }
