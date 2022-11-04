@@ -23,7 +23,7 @@ nav ul li {
 nav ul li a{
     color: #283618;
     text-decoration: none; /*fjerner strek under liste elementene */
-    font-family:'Black Han Sans', sans-serif;
+    font-family: 'IBM Plex Mono', monospace;
 }
 
 nav ul li a:hover{
