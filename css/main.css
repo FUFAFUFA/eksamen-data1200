@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
 
 body {
   background-color: #FEFAE0;
+  font-family: 'IBM Plex Mono', monospace;
 }
 * {
   box-sizing: border-box;
@@ -74,7 +76,6 @@ font-size: 1rem;
   transform: translate(-50%, -50%);
   font-size: 100px;
   white-space: nowrap;
-  font-family:'Black Han Sans', sans-serif;
   color:#8a4309;
 }
 
