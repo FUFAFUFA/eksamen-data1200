@@ -9,7 +9,16 @@ body {
 * {
   box-sizing: border-box;
 }
+.menu {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0 auto;
+  max-width: 960px;
+  height: 100%;
 
+}
 
 .wrapper {
   max-width: 1024px;
@@ -55,10 +64,9 @@ img {
 .beskrivelse {
   grid-area: description;
   margin: 0;
+
 }
 
-<<<<<<< HEAD
-=======
 .menu-item {
 display: flex;
 width: 50%;
@@ -89,8 +97,7 @@ margin: 0 .5rem;
 border-bottom: 1px dashed black;
 flex: 1;
 }
->>>>>>> a31be2ebd3c5b70eb010dc484e610ac1fa3af644
-  
+
 h1 {
 margin: 0;
 font-size: 1rem;
@@ -122,7 +129,7 @@ font-size: 1rem;
   white-space: nowrap;
   font-family:'Black Han Sans', sans-serif;
   color:#8a4309;
-  font-family: monospace;
+  font-family: 'IBM Plex Mono', monospace;
 }
 .knapp {
   position: absolute;
@@ -146,3 +153,44 @@ header {
   height: 500px;
 }
 
+/* Form style - skal endres*/
+input[type=text], select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=date], select {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 40%;
+  background-color: #606c38;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #606c38;
+}
+
+form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+/* Form style - skal endres*/
