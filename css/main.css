@@ -17,6 +17,54 @@ body {
   margin: 0 auto;
   max-width: 960px;
   height: 100%;
+
+}
+
+.wrapper {
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.meny {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 500px));
+  grid-gap: 1.5rem;
+}
+.meny-del {
+  display: grid;
+  grid-template-columns: 150px minmax(200px 280px) 60px;
+  grid-template-rows: autofill(30px 1fr);
+  /* grid-row-gap: 10px;*/
+  grid-column-gap: 10px;
+  grid-template-areas:
+    "img menu-item price"
+    "img description .";
+  margin-top: 10px;
+  margin-bottom: 10px;
+  align-items: top;
+}
+img {
+  grid-area: img;
+  width: 100%;
+  min-width: 100px;
+  height: auto;
+}
+.meny-rett {
+  grid-area: menu-item;
+  font-weight: bold;
+}
+.pris::after {
+  content: " kr ";
+  font-weight: bold;
+}
+.pris {
+  grid-area: price;
+  font-weight: bold;
+}
+.beskrivelse {
+  grid-area: description;
+  margin: 0;
+
 }
 
 .menu-item {
@@ -49,7 +97,7 @@ margin: 0 .5rem;
 border-bottom: 1px dashed black;
 flex: 1;
 }
-  
+
 h1 {
 margin: 0;
 font-size: 1rem;
@@ -104,6 +152,7 @@ header {
   position: relative;
   height: 500px;
 }
+
 /* Form style - skal endres*/
 input[type=text], select {
   width: 40%;
