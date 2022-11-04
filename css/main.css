@@ -214,7 +214,12 @@ input[type=submit]:hover {
 }
 .form-child3 {
   display: flex;
+  align-items: center;
   justify-content: center;
+  margin-left: 35%;
+  margin-right: 35%;
+  background-color: #f2f2f2;
 }
+
 
 /* Form style - skal endres*/
