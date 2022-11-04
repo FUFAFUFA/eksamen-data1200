@@ -112,4 +112,12 @@ header {
   position: relative;
   height: 500px;
 }
+article{
+  display: flex;
+  width:400px;
+  height: 500px;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
 
