@@ -129,7 +129,7 @@ font-size: 1rem;
   white-space: nowrap;
   font-family:'Black Han Sans', sans-serif;
   color:#8a4309;
-  font-family: monospace;
+  font-family: 'IBM Plex Mono', monospace;
 }
 .knapp {
   position: absolute;
