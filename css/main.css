@@ -36,6 +36,7 @@ display: flex;
 width: 100%;
 justify-content:center;
 align-items: center;
+
 }
 
 .spacer {
@@ -51,6 +52,10 @@ h1 {
 margin: 0;
 font-size: 1rem;
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
 .col-container {
 	display: flex;
 	flex-direction: row;
@@ -65,6 +70,7 @@ font-size: 1rem;
  position: relative;
  width: 100%;
   text-align: center;
+  width: 100%;
 }
 
 .tittel {
@@ -74,13 +80,28 @@ font-size: 1rem;
   transform: translate(-50%, -50%);
   font-size: 100px;
   white-space: nowrap;
+<<<<<<< Updated upstream
   font-family:'Black Han Sans', sans-serif;
   color:#8a4309;
+=======
+  font-family: monospace;
+>>>>>>> Stashed changes
 }
 
 .knapp {
   position: absolute;
-  bottom: 40%;
+  bottom: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
+  background-color: #606c38;
+  padding: 15px 32px;
+  color: #283618;
+ 
 }
+<<<<<<< Updated upstream
+=======
+
+
+
+
+>>>>>>> Stashed changes
