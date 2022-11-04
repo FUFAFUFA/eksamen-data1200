@@ -120,4 +120,8 @@ article{
   align-content: center;
   align-items: center;
 }
-
+footer {
+  background-image: linear-gradient(#BC6C25, #946229);
+  color:#FEFAE0;
+  height:150px;
+}
