@@ -45,7 +45,7 @@ img {
   font-weight: bold;
 }
 .pris::after {
-  content: " kr   ";
+  content: " kr  ";
   font-weight: bold;
 }
 .pris {
@@ -111,7 +111,7 @@ header {
   position: relative;
   height: 500px;
 }
-article{
+article {
   display: flex;
   width:400px;
   height: 500px;
