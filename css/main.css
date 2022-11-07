@@ -45,7 +45,7 @@ img {
   font-weight: bold;
 }
 .pris::after {
-  content: " kr ";
+  content: " kr   ";
   font-weight: bold;
 }
 .pris {
@@ -54,10 +54,9 @@ img {
 }
 .beskrivelse {
   grid-area: beskrivelse;
-  margin: 0;
+  margin: 1;
 }
 
-  
 h1 {
 margin: 0;
 font-size: 1rem;
@@ -105,8 +104,8 @@ body::-webkit-scrollbar {
 }
 header {
   background-image: url("/bilder/bakgrunn1.png");
-  background-position:center ;
-  height:auto;
+  background-position: center;
+  height: auto;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
