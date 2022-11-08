@@ -92,13 +92,27 @@ font-size: 1rem;
 }
 .knapp {
   position: absolute;
-  bottom: 30%;
+  bottom: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #606c38;
   padding: 15px 32px;
   color: #283618;
 }
+
+a:link {
+  color: #FEFAE0;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #FEFAE0;
+}
+
+a:hover {
+  color: black;
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -131,6 +145,7 @@ footer {
   color:#FEFAE0;
   height:150px;
   padding:30px;
+  text-align: center;
 }
 .book {
   margin-left:40px;
