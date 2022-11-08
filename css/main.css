@@ -43,7 +43,6 @@ h2{
 
 .meny-del{
   position: relative;
-  border: black 1px solid;
   display: flex;
 }
 
@@ -60,7 +59,8 @@ h2{
 
 .meny-rett {
   grid-area: meny-rett;
-  font-weight: bold;
+  font-size: normal;
+  font-weight: bolder;
 }
 
 
@@ -119,19 +119,22 @@ font-size: 1rem;
   background-color: #606c38;
   padding: 15px 32px;
   color: #283618;
+  text-decoration: none;
+
 }
 
-.link:link {
+#bookinglink:hover{
+  color: #283618;
+}
+
+#bookinglink {
   color: #FEFAE0;
   text-decoration: none;
+  
 }
 
-.link:visited {
-  color: #FEFAE0;
-}
-
-.link:hover {
-  color: black;
+a {
+  text-decoration: none;
 }
 
 
