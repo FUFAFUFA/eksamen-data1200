@@ -133,6 +133,14 @@ font-size: 1rem;
   
 }
 
+.mailen {
+  color: #FEFAE0;
+}
+
+.mailen:hover {
+  color: #283618;
+}
+
 a {
   text-decoration: none;
 }
