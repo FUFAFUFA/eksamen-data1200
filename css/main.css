@@ -148,11 +148,11 @@ footer {
   text-align: center;
 }
 .book {
-  margin-left:40px;
+  margin-left:500px;
   color:white;
   font-family: 'Rubik Mono One', sans-serif;
   position: relative;
-  top:160px;
+  text-align: center;
   opacity: 90%;
   font-size: 30px;
   display: inline-flex;
