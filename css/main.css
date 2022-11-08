@@ -154,7 +154,7 @@ body::-webkit-scrollbar {
   height: 200px;
 }
 article {
-  display: inline-flex;
+  display: flex;
   width:400px;
   height: 500px;
   flex-direction: column;
@@ -182,4 +182,16 @@ footer {
 .location{
   border-radius: 50%;
   border-style: hidden;
+}
+.overlay {
+  filter:brightness(40%);
+  background-image: url(../bilder/bakgrunn.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:100vh;
+  color:white;
+  display:flex;
+  justify-content: center;
+  font-size: 40px;
+  align-items:center;
 }
