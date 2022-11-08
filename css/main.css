@@ -125,6 +125,7 @@ link:hover {
 body::-webkit-scrollbar {
   display: none;
 }
+
 .header-index {
   background-image: url("/bilder/bakgrunn1.png");
   background-position: center;
