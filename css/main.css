@@ -38,17 +38,14 @@ h2{
   align-items: top;
 }
 img {
-    float: left;
-    width:  200px;
-    height: 200px;
-    object-fit: cover;
+  grid-area: img;
+  width: 100%;
+  min-width: 100px;
+  height: auto;
 }
 .meny-rett {
   grid-area: meny-rett;
   font-weight: bold;
-  bottom: 0px;
-  margin-bottom: 0px;
-  padding-bottom: 0px;
   
 
 }
@@ -63,9 +60,6 @@ img {
 .beskrivelse {
   grid-area: beskrivelse;
   margin: 1;
-  top: 0px;
-  bottom: 0px;
-  
 
 }
 
@@ -109,18 +103,19 @@ font-size: 1rem;
   color: #283618;
 }
 
-link:link {
+.link:link {
   color: #FEFAE0;
   text-decoration: none;
 }
 
-link:visited {
+.link:visited {
   color: #FEFAE0;
 }
 
-link:hover {
+.link:hover {
   color: black;
 }
+
 
 body::-webkit-scrollbar {
   display: none;
