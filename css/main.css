@@ -46,6 +46,8 @@ img {
 .meny-rett {
   grid-area: meny-rett;
   font-weight: bold;
+  
+
 }
 .pris::after {
   content: " kr  ";
@@ -58,6 +60,7 @@ img {
 .beskrivelse {
   grid-area: beskrivelse;
   margin: 1;
+
 }
 
 h1 {
@@ -100,22 +103,24 @@ font-size: 1rem;
   color: #283618;
 }
 
-a:link {
+.link:link {
   color: #FEFAE0;
   text-decoration: none;
 }
 
-a:visited {
+.link:visited {
   color: #FEFAE0;
 }
 
-a:hover {
+.link:hover {
   color: black;
 }
+
 
 body::-webkit-scrollbar {
   display: none;
 }
+
 .header-index {
   background-image: url("/bilder/bakgrunn1.png");
   background-position: center;
