@@ -41,7 +41,6 @@ h2{
 
 .meny-del{
   position: relative;
-  border: black 1px solid;
   display: flex;
 }
 
@@ -58,7 +57,8 @@ h2{
 
 .meny-rett {
   grid-area: meny-rett;
-  font-weight: bold;
+  font-size: normal;
+  font-weight: bolder;
 }
 
 
