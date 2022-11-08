@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600&display=swap');
+
 body {
   background-color:#FEFAE0;
   font-family: 'IBM Plex Mono', monospace;
@@ -117,19 +119,22 @@ font-size: 1rem;
   background-color: #606c38;
   padding: 15px 32px;
   color: #283618;
+  text-decoration: none;
+
 }
 
-.link:link {
+#bookinglink:hover{
+  color: #283618;
+}
+
+#bookinglink {
   color: #FEFAE0;
   text-decoration: none;
+  
 }
 
-.link:visited {
-  color: #FEFAE0;
-}
-
-.link:hover {
-  color: black;
+a {
+  text-decoration: none;
 }
 
 
