@@ -3,6 +3,8 @@
 .logo a{
     text-decoration: none;
     color: black;
+    text-transform: uppercase;
+    font-style: oblique;
 }
 
 nav {
@@ -21,7 +23,7 @@ nav ul li {
 }
 
 nav ul li a{
-    color: #283618;
+    color:#363d1d;
     text-decoration: none; /*fjerner strek under liste elementene */
     font-family: 'IBM Plex Mono', monospace;
 }

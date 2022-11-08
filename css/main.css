@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
 
 body {
-  background-color: #FEFAE0;
+  background-color:#FEFAE0;
   font-family: 'IBM Plex Mono', monospace;
   margin:0;
 }
 * {
   box-sizing: border-box;
+}
+h2{
+  font-family: 'Rubik Mono One', sans-serif;
+  color:#BC6C25;
 }
 
 
@@ -124,4 +129,18 @@ footer {
   background-image: linear-gradient(#BC6C25, #946229);
   color:#FEFAE0;
   height:150px;
+  padding:30px;
 }
+.book {
+  margin-left:40px;
+  color:#7B98A2;
+  font-family: 'Rubik Mono One', sans-serif;
+  position: relative;
+  top:160px;
+  opacity: 90%;
+  font-size: 40px;
+  display: inline-flex;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color:#EAEFEB;
+}
+
