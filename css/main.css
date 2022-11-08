@@ -39,13 +39,18 @@ h2{
 }
 img {
     float: left;
-    width:  100px;
-    height: 100px;
+    width:  200px;
+    height: 200px;
     object-fit: cover;
 }
 .meny-rett {
   grid-area: meny-rett;
   font-weight: bold;
+  bottom: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  
+
 }
 .pris::after {
   content: " kr  ";
@@ -58,6 +63,10 @@ img {
 .beskrivelse {
   grid-area: beskrivelse;
   margin: 1;
+  top: 0px;
+  bottom: 0px;
+  
+
 }
 
 h1 {
