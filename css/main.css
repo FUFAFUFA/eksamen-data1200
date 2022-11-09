@@ -71,9 +71,6 @@ h2{
   font-weight: bolder;
 }
 
-
-
-
 .pris::after {
   content: " kr  ";
   font-weight: bold;
@@ -83,11 +80,12 @@ h2{
 
   font-weight: bold;
 }
+
 .beskrivelse {
   grid-area: beskrivelse;
   margin: 1;
-
 }
+
 
 h1 {
 margin: 0;
