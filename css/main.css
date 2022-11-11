@@ -1,216 +1,208 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600&display=swap');
-
-body {
-  background-color:#FEFAE0;
-  font-family:  'Inconsolata', monospace;
-  margin:0;
+ @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600&display=swap');
+ body {
+     background-color:#FEFAE0;
+     font-family: 'Inconsolata', monospace;
+     margin:0;
 }
-* {
-  box-sizing: border-box;
+ * {
+     box-sizing: border-box;
 }
-h2{
-  font-family: 'Rubik Mono One', sans-serif;
-  color:#BC6C25;
+ h2{
+     font-family: 'Rubik Mono One', sans-serif;
+     color:#BC6C25;
 }
-.wrapper {
-  max-width: 1024px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
+ .wrapper {
+     max-width: 1024px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 50px;
 }
-.meny {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(360px, 500px));
-  grid-gap: 1.5rem;
+ .meny {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(360px, 500px));
+     grid-gap: 1.5rem;
 }
-/*
-.meny-del {
-  display: grid;
-  grid-template-columns: 150px minmax(200px 280px) 60px;
-  grid-template-rows: autofill(30px 1fr);
-  grid-column-gap: 10px;
-  grid-template-areas:
-    "img meny-rett pris"
-    "img beskrivelse . ";
-  margin-top: 10px;
-  margin-bottom: 10px;
-  align-items: top;
+/* .meny-del {
+     display: grid;
+     grid-template-columns: 150px minmax(200px 280px) 60px;
+     grid-template-rows: autofill(30px 1fr);
+     grid-column-gap: 10px;
+     grid-template-areas: "img meny-rett pris" "img beskrivelse . ";
+     margin-top: 10px;
+     margin-bottom: 10px;
+     align-items: top;
 }
-*/
-
-.meny-del{
-  position: relative;
-  display: flex;
+ */
+ .meny-del{
+     position: relative;
+     display: flex;
 }
-
-.meny > .meny-del > img{
-  margin-right: 10px;
+ .meny > .meny-del > img{
+     margin-right: 10px;
 }
-
-.pris{
-  position: absolute;
-  right: 10px;
-  top: 0;
-  float: right;
+ .pris{
+     position: absolute;
+     right: 10px;
+     top: 0;
+     float: right;
 }
-
-@media only screen and (max-width: 600px) {
-  .pris{
-    position: unset;
-    float: unset;
-  }
+ @media only screen and (max-width: 600px) {
+     .pris{
+         position: unset;
+         float: unset;
+    }
 }
-
-.meny-rett {
-  grid-area: meny-rett;
-  font-size: normal;
-  font-weight: bolder;
+ .meny-rett {
+     grid-area: meny-rett;
+     font-size: normal;
+     font-weight: bolder;
 }
-
-.pris::after {
-  content: " kr  ";
-  font-weight: bold;
+ .pris::after {
+     content: " kr ";
+     font-weight: bold;
 }
-.pris {
-  grid-area: pris;
-
-  font-weight: bold;
+ .pris {
+     grid-area: pris;
+     font-weight: bold;
 }
-
-.beskrivelse {
-  grid-area: beskrivelse;
-  margin: 1;
+ .beskrivelse {
+     grid-area: beskrivelse;
+     margin: 1;
 }
-
-
-h1 {
-margin: 0;
-font-size: 1rem;
+ h1 {
+     margin: 0;
+     font-size: 1rem;
 }
-.col-container {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items: stretch;
-	align-content: stretch;
+ .col-container {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+     align-items: stretch;
+     align-content: stretch;
 }
-.bakgrunn {
-
- position: relative;
- width: 100%;
-  text-align: center;
-  width: 100%;
+ .bakgrunn {
+     position: relative;
+     width: 100%;
+     text-align: center;
+     width: 100%;
 }
-.tittel {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 100px;
-  white-space: nowrap;
-  font-family:'Black Han Sans', sans-serif;
-  color:#8a4309;
-  font-family: monospace;
+ .tittel {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 100px;
+     white-space: nowrap;
+     font-family:'Black Han Sans', sans-serif;
+     color:#8a4309;
+     font-family: monospace;
 }
-.knapp {
-  position: absolute;
-  bottom: 20%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: #606c38;
-  padding: 15px 32px;
-  color: #283618;
-  text-decoration: none;
-
+ .knapp {
+     position: absolute;
+     bottom: 20%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color: #606c38;
+     padding: 15px 32px;
+     color: #283618;
+     text-decoration: none;
 }
-
-#bookinglink:hover{
-  color: #283618;
+ #bookinglink:hover{
+     color: #283618;
 }
-
-#bookinglink {
-  color: #FEFAE0;
-  text-decoration: none;
-  
+ #bookinglink {
+     color: #FEFAE0;
+     text-decoration: none;
 }
-
-.mailen {
-  color: #FEFAE0;
+ .mailen {
+     color: #FEFAE0;
 }
-
-.mailen:hover {
-  color: #283618;
+ .mailen:hover {
+     color: #283618;
 }
-
-a {
-  text-decoration: none;
+ a {
+     text-decoration: none;
 }
-
-
-body::-webkit-scrollbar {
-  display: none;
+ body::-webkit-scrollbar {
+     display: none;
 }
-
-.header-index {
-  background-image: url("/bilder/bakgrunn1.png");
-  background-position: center;
-  background-color: #946229;
-  height: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  height: 500px;
+ .header-index {
+     background-image: url("/bilder/bakgrunn1.png");
+     background-position: center;
+     background-color: #946229;
+     height: auto;
+     background-repeat: no-repeat;
+     background-size: cover;
+     position: relative;
+     height: 500px;
 }
-.header-booking {
-  background-color: #946229;
-  position: relative;
-  width: 100%;
-  height: 200px;
+ .header-booking {
+     background-color: #946229;
+     position: relative;
+     width: 100%;
+     height: 200px;
 }
-article {
-  display: flex;
-  width:400px;
-  height: 500px;
-  flex-direction: column;
-  align-content: center;
-  align-items: center;
+ article {
+     display: flex;
+     width:400px;
+     height: 500px;
+     flex-direction: column;
+     align-content: center;
+     align-items: center;
 }
-footer {
-  background-image: linear-gradient(#BC6C25, #946229);
-  color:#FEFAE0;
-  height:150px;
-  padding:30px;
-  text-align: center;
+ footer {
+     background-image: linear-gradient(#BC6C25, #946229);
+     color:#FEFAE0;
+     height:150px;
+     padding:30px;
+     text-align: center;
 }
-.book {
-  margin-left:500px;
-  color:white;
-  font-family: 'Rubik Mono One', sans-serif;
-  position: relative;
-  text-align: center;
-  opacity: 90%;
-  font-size: 30px;
-  display: inline-flex;
-
+ .book {
+     margin-left:500px;
+     color:white;
+     font-family: 'Rubik Mono One', sans-serif;
+     position: relative;
+     text-align: center;
+     opacity: 90%;
+     font-size: 30px;
+     display: inline-flex;
 }
-.location{
-  border-radius: 50%;
-  border-style: hidden;
+ .location{
+     border-radius: 50%;
+     border-style: hidden;
+     position: relative;
+     bottom:50px;
+     left:700px;
+     height:250px;
+     width:260px;
 }
-.overlay {
-  filter:brightness(40%);
-  background-image: url(../bilder/bakgrunn.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height:100vh;
-  color:white;
-  display:flex;
-  justify-content: center;
-  font-size: 40px;
-  align-items:center;
+ .overlay {
+     filter:brightness(40%);
+     background-image: url(../bilder/bakgrunn.png);
+     background-repeat: no-repeat;
+     background-size: cover;
+     height:100vh;
+     color:white;
+     display:flex;
+     justify-content: center;
+     font-size: 40px;
+     align-items:center;
 }
+ .bookingTitle{
+     color:beige;
+     font-size: 50px;
+     position: absolute;
+     top:400px;
+     left:50px;
+     font-family: 'Rubik Mono One', sans-serif;
+}
+ .tekst1 {
+     position: relative;
+     left:100px;
+     width:300px;
+}
+ 
