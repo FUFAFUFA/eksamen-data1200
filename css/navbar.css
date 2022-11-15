@@ -34,4 +34,32 @@ nav ul li a{
 nav ul li a:hover{
     color: #606C38;
 }
- 
+
+.nav2 {
+    display: none;
+   
+}
+
+
+
+@media screen and (max-width: 850px) {
+    
+
+.nav1 ul li {
+    display: none;
+}
+
+.nav2 {
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start;
+   
+
+}
+   
+   
+    
+}
+
+
+
