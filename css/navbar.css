@@ -34,4 +34,16 @@ nav ul li a{
 nav ul li a:hover{
     color: #606C38;
 }
- 
+
+.navbar-ikon {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+    
+    .navbar-ikon {
+        display: block;
+    }
+    
+}
