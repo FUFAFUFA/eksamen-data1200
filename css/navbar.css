@@ -35,15 +35,31 @@ nav ul li a:hover{
     color: #606C38;
 }
 
-.navbar-ikon {
+.nav2 {
     display: none;
-    cursor: pointer;
+   
 }
+
+
 
 @media screen and (max-width: 850px) {
     
-    .navbar-ikon {
-        display: block;
-    }
+
+.nav1 ul li {
+    display: none;
+}
+
+.nav2 {
+    display: block;
+    align-items: flex-start;
+    justify-content: flex-start;
+   
+
+}
+   
+   
     
 }
+
+
+
