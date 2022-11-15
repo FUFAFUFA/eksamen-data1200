@@ -186,14 +186,16 @@
      font-size: 30px;
      display: inline-flex;
 }
+/* bilde hentet fra snazzymaps og redigert i canva*/ 
  .location{
      border-radius: 50%;
      border-style: hidden;
      position: relative;
-     bottom:50px;
-     left:700px;
+     bottom:240px;
+     left:650px;
      height:250px;
      width:260px;
+     shape-outside: circle(60%);
 }
  .overlay {
      filter:brightness(40%);
@@ -208,7 +210,7 @@
      align-items:center;
 }
  .bookingtitle{
-     color:beige;
+     color:rgb(222, 108, 15);
      font-size: 50px;
      position: absolute;
      top:300px;
@@ -217,7 +219,7 @@
 }
  .tekst1 {
      position: relative;
-     left:100px;
+     left:350px;
      width:300px;
 }
  
