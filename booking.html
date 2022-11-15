@@ -34,10 +34,11 @@
         
         </div>
         
-        <img alt="location" class="location" src="bilder/location.png">
+        
+        <div style="width: 70%; height:70%;" class="location"><iframe scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=50%25&amp;height=50%25&amp;hl=en&amp;q=Dronning%20Eufemias%20gate%2014,%200191%20Oslo+(the%20next%20event)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" width="50%" height="50%" frameborder="0"><a href="https://www.maps.ie/distance-area-calculator.html">measure acres/hectares on map</a></iframe></div>
 
     <div>
-    <form>
+    <form class="container">
         
         <div class="form-child1">
         <label for="navn">Navn</label><br>
@@ -50,7 +51,7 @@
     <div class="form-child2">
         <label for="Dato">dato</label><br>
         <input type="date"><br>
-        <label for="cars">Velg en tid:</label><br>
+        <label for="time">Velg en tid:</label><br>
         <select name="time" id="time">
             <option value="4">16.00</option>
             <option value="5">17.00</option>
@@ -60,6 +61,16 @@
             <option value="9">20.00</option>
             <option value="10">21.00</option>
             <option value="11">22.00</option>
+        </select> <br>
+
+        <label for="event">Velg en event:</label><br>
+        <select name="evnet" id="event">
+            <option value="4">Firma selskap</option>
+            <option value="5">Event</option>
+            <option value="6">Bryllup</option>
+            <option value="7">Bursdag</option>
+            <option value="8">Fiesta</option>
+        
         </select> <br>
         <label for="folk">Antall personer:</label><br>
         <select name="folk" id="folk">
