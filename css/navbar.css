@@ -1,11 +1,12 @@
 
 
-.logo a{
+.logo a img{
     text-decoration: none;
     color: black;
     text-transform: uppercase;
     font-style: oblique;
-
+    width: 100%;
+ 
 }
 
 nav {
@@ -42,7 +43,12 @@ nav ul li a:hover{
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 360px) {
+    .logo a img {
+        max-width:80%;
+        height: 50%;
+        
+    }
     
 
 .nav1 ul li {
