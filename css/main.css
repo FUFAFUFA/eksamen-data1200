@@ -275,8 +275,5 @@ input[type=text], select, textarea {
     padding: 20px;
   }
   @media screen and (max-width: 390px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
+    
   }
