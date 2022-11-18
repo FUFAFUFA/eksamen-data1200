@@ -283,15 +283,16 @@ input[type=text], select, textarea {
       width:100%;
     }
     
+  }
   
   /* Responsivitet forside */
-  @media only screen and (max-width: 390px){
+  @media only screen and (max-width: 600px){
 
     .tittel{
         font-size: 4vw;
-        padding-top: 40%;
-        padding-left: 100px;
-        word-wrap: break-word;
+        /* padding-top: 40%;
+        padding-left: 100px;*/
+        word-wrap: normal;
     }
 
     .header-index {
@@ -306,11 +307,14 @@ input[type=text], select, textarea {
     }
     
     .knapp {
-        width: 25vw;
-        height: 10vw;
-        margin-bottom: 30vw;
+        position: absolute;
+        height: 40px;
+        width: 100px;
+
+        /*margin-bottom: 30vw;
         margin-left: 10vw;
-        
+        width: 25vw;
+        height: 10vw;*/
         
     }
 
@@ -326,4 +330,5 @@ input[type=text], select, textarea {
         padding-bottom: 20px;
       
     }
+
   }
