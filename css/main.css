@@ -172,6 +172,7 @@
      padding:30px;
      text-align: center;
      padding-bottom: 20px;
+     padding-top:20px;
 }
  .book {
      margin-left:500px;
@@ -248,7 +249,7 @@ input[type=text], select, textarea {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    float: right;
+    /*float: right;*/
   }
   input[type=submit]:hover {
     background-color: #45a049;
