@@ -1,0 +1,27 @@
+.info-tekst {
+    text-align: center;
+    padding-bottom:50px;
+    padding-top:50px;
+    position: relative;
+    margin-left: 27%;
+    width:40%;
+}
+.bookingtitle{
+    color:#37B4E8;
+    font-size: 50px;
+    position: absolute;
+    top:300px;
+    left:50px;
+    font-family: 'Inconsolata', monospace;
+}
+.location{
+    position: relative;
+    top:10px;
+    right:10px;
+    width: 20%;
+    height:70%; 
+    border-style:solid; 
+    border-color:rgb(160, 108, 68);
+    border-radius: 60%;
+    
+}
