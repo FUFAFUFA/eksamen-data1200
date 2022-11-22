@@ -183,15 +183,7 @@
      font-size: 30px;
      display: inline-flex;
 }
-/* bilde hentet fra snazzymaps og redigert i canva*/ 
- .location{
-    
-     position: absolute;
-     top:820px;
-     left:600px;
-     
-    
-}
+
  .overlay {
      filter:brightness(40%);
      background-image: url(../bilder/bakgrunn.png);
@@ -204,36 +196,25 @@
      font-size: 40px;
      align-items:center;
 }
- .bookingtitle{
-     color:#37B4E8;
-     font-size: 50px;
-     position: absolute;
-     top:300px;
-     left:50px;
-     font-family: 'Rubik Mono One', sans-serif;
-}
- .tekst1 {
-     position: relative;
-     left:200px;
-     top:59px;
-     width:390px;
-     padding-bottom:200px;
-}
+ 
+
 h2{
     font-family: 'Rubik Mono One', sans-serif;
     color:#363d1d;
 }
 input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    resize: vertical;
+  width: 20%;
+  padding: 12px;
+  border: 1px solid #fffbe1;
+  border-radius: 4px;
+  background-color: #ede9ce;
+  resize: vertical;
   }
   input[type=date], select, date {
-    width: 100%;
+    width: 10%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #ede9ce;
+    background-color: #ede9ce;
     border-radius: 4px;
     resize: vertical;
   }
@@ -242,16 +223,16 @@ input[type=text], select, textarea {
     display: inline-block;
   }
   input[type=submit] {
-    background-color: #04AA6D;
+    background-color: #606C38;
     color: white;
-    padding: 12px 20px;
+    padding: 12px 20px 10px 10px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     /*float: right;*/
   }
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #193112;
   }  
   
 /* Clear floats after the columns */
@@ -269,14 +250,24 @@ input[type=text], select, textarea {
     }
   }
   
-.container {
+.container-form {
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+    background-color: #FEFAE0;
+    padding-top:100px;
   }
+  
   @media screen and (max-width: 390px) {
     form, input[type=submit] {
       padding:10px;
+      width:100%;
+    }
+    form, input[type=input] {
+      padding:10px;
+      width:100%;
+    }
+    form, input[type=date] {
+      padding:10px;
+      width:100%;
     }
     .header-index  {
       width:100%;
