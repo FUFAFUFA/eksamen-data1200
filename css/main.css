@@ -222,8 +222,8 @@
      font-size: 40px;
      align-items:center;
 }
- 
 
+ /*Style for skjema */
 h2{
     font-family: 'Rubik Mono One', sans-serif;
     color:#363d1d;
@@ -276,16 +276,7 @@ input[type=text], select, textarea {
     }
   }
   
-.container-form {
-    border-radius: 5px;
 
-    background-color: #FEFAE0;
-    padding-top:100px;
-
-    padding: 20px;
-
-
-  }
   
   @media screen and (max-width: 390px) {
     form, input[type=submit] {
@@ -343,7 +334,6 @@ input[type=text], select, textarea {
         height: 10%; 
         
     }
-
     .footer {
         font-size: small;     
     }

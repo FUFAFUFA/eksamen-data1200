@@ -36,6 +36,6 @@ input[type=text], select, textarea {
     display: table;
     clear: both;
   }
-  .kontakt {
+  .form-kontakt {
     padding:20px;
   }
