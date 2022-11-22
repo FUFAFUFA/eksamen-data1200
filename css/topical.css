@@ -3,3 +3,10 @@ body {
     font-family: 'Inconsolata', monospace;
     margin:0;
 }
+
+.container-topical {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding-left: 370px;
+}
