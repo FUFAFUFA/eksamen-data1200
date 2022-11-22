@@ -81,23 +81,27 @@
      align-items: stretch;
      align-content: stretch;
 }
- .bakgrunn {
-     position: relative;
-     width: 100%;
-     text-align: center;
-     width: 100%;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0%;
+  padding: 0%;
+  border: 0em;
 }
- .tittel {
-     position: absolute;
-     top: 58%;
-     left: 32%;
-     transform: translate(-50%, -50%);
-     font-size: 50px;
-     white-space: nowrap;
-     font-family: 'Rubik Mono One', sans-serif;
-     color:#FEFAE0;
+
+.bakgrunnsbilde {
+  width: 100%;
+  height: 600px;
+  margin: 0%;
+}
+
+.headline {
+  position: absolute;
+  font-size: 100px;
+}
     
-}
 .knapp {
     position: absolute;
     bottom: 10%;
@@ -114,6 +118,7 @@
     margin-top:10px;
     text-align: center;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    padding-top: 1%;
 }
 .knapp:hover  {
     background-color: #283618;
@@ -128,6 +133,10 @@
 .telefonnummer {
   color: #FEFAE0;
 }
+
+.telefonnummer:hover{
+  color: #283618;
+}
  .mailen {
      color: #FEFAE0;
 }
@@ -140,17 +149,7 @@
  body::-webkit-scrollbar {
      display: none;
 }
- .header-index {
-     background-image: url("/bilder/bakgrunn1.png");
-     background-position: center;
-     background-color: #946229;
-     height: auto;
-     background-repeat: no-repeat;
-     background-size: cover;
-     position: relative;
-     height: 500px;
-     filter:brightness(80%);
-}
+
  .header-booking {
      background-color: #946229;
      position: relative;
@@ -288,47 +287,38 @@ input[type=text], select, textarea {
   /* Responsivitet forside */
   @media only screen and (max-width: 600px){
 
-    .tittel{
-        font-size: 4vw;
-        /* padding-top: 40%;
-        padding-left: 100px;*/
-        word-wrap: normal;
+    .headline {
+      position: absolute;
+      font-size: 10vw;
+      word-wrap: break-word;
+      height: 70%;
+      padding-bottom: 20%;
+     
     }
 
-    .header-index {
-        overflow-wrap: break-word;
-        text-align: center;
-        inline-size: 200px;
-        width: 100vw;
-        height: 75vw;
-        padding-left: 10vw;
-    
-       
+    .bakgrunnsbilde {
+      height: 350px;
+      width: auto;
+      
     }
     
     .knapp {
-        position: absolute;
-        height: 40px;
-        width: 100px;
-
-        /*margin-bottom: 30vw;
-        margin-left: 10vw;
-        width: 25vw;
-        height: 10vw;*/
-        
+      width: 20%; 
+      justify-content: left;  
+      padding-top: 2%;
+      
     }
 
     #bookinglink {
-        font-size: small;
-        
+        font-size: medium;
+        position: absolute;
+        left: 7%;
+        justify-content: center;    
         
     }
 
     .footer {
-        font-size: small;
-        
-        padding-bottom: 20px;
-      
+        font-size: small;     
     }
 
   }
