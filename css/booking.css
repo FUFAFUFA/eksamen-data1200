@@ -15,9 +15,9 @@
     font-family: 'Inconsolata', monospace;
 }
 .location{
-    position: absolute;
+    position: relative;
     top:10px;
-    left:600px;
+    right:10px;
     width: 20%;
     height:70%; 
     border-style:solid; 
