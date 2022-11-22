@@ -17,8 +17,14 @@
 .location{
     display: flex;
     position: relative;
-    left:60% ;
-
     border-style:solid; 
     border-color:rgb(160, 108, 68);
+    padding-top: 50px;
+    padding-right: 200px;
+}
+
+.container-booking {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
