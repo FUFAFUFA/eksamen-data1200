@@ -17,14 +17,13 @@
 .location{
     display: flex;
     position: relative;
-    border-style:solid; 
-    border-color:rgb(160, 108, 68);
+    padding-top: 100px;
+    padding-right: 200px;
+    
 }
 .container-form {
     border-radius: 5px;
-    background-color: #FEFAE0;
-    
-  
+    background-color: #FEFAE0;  
     padding-top: 50px;
     padding-right: 200px;
 }
