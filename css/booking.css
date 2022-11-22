@@ -19,6 +19,12 @@
     position: relative;
     border-style:solid; 
     border-color:rgb(160, 108, 68);
+}
+.container-form {
+    border-radius: 5px;
+    background-color: #FEFAE0;
+    
+  
     padding-top: 50px;
     padding-right: 200px;
 }
