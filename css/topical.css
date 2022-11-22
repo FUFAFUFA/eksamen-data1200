@@ -24,3 +24,10 @@ body {
     padding-left: 500px;
     padding-top: 50px;
 }
+
+.link-topical:hover {
+    color: #283618;
+}
+.link-topical:visited{
+    color: #283618;
+}
