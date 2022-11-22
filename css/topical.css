@@ -3,3 +3,24 @@ body {
     font-family: 'Inconsolata', monospace;
     margin:0;
 }
+
+.container-topical {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    padding-left: 370px;
+}
+
+.bilde-topical1 {
+    width: 500px;
+    height: auto;
+    padding-left: 500px;
+    padding-bottom: 50px;
+}
+
+.bilde-topical2 {
+    width: 500px;
+    height: auto;
+    padding-left: 500px;
+    padding-top: 50px;
+}
