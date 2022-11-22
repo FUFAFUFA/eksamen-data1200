@@ -82,6 +82,18 @@
      align-content: stretch;
 }
 
+.header-index {
+  background-image: url("/bilder/bakgrunn1.png");
+  background-position: center;
+  background-color: #946229;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  filter:brightness(80%);
+}
+
 .container {
   display: flex;
   flex-direction: column;
