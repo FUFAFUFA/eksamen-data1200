@@ -121,7 +121,7 @@
     left: 2%;
     cursor: pointer;
     border: 2px solid whitesmoke;
-    border-radius: 40px;
+    border-radius: 5px;
     background-color: transparent ;
     height: 50px;
     width: 200px;
@@ -131,7 +131,7 @@
     margin-top:10px;
     text-align: center;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
-    padding-top: 1%;
+    padding-top: 0.5%;
 }
 .knapp:hover  {
     background-color: #283618;
