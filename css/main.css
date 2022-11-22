@@ -7,8 +7,9 @@
      font-family: 'Inconsolata', monospace;
      margin:0;
 }
- * {
-     box-sizing: border-box;
+
+* {
+  box-sizing: border-box;
 }
 
  .wrapper {
@@ -82,7 +83,19 @@
      align-content: stretch;
 }
 
-.container {
+.header-index {
+  background-image: url("/bilder/bakgrunn1.png");
+  background-position: center;
+  background-color: #946229;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  filter:brightness(80%);
+}
+
+.container-forside {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -92,14 +105,27 @@
 }
 
 .bakgrunnsbilde {
-  width: 100%;
-  height: 600px;
-  margin: 0%;
+  /*width: 100%;
+  height: 600px; */
+  height: auto;
+
+
+  /*
+  background-position: center;
+  background-color: #946229;
+  height: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 500px;
+  filter:brightness(80%);*/
 }
 
 .headline {
   position: absolute;
   font-size: 100px;
+  color: #FEFAE0;
+  font-size: 8vw;
 }
     
 .knapp {
@@ -108,7 +134,7 @@
     left: 2%;
     cursor: pointer;
     border: 2px solid whitesmoke;
-    border-radius: 40px;
+    border-radius: 5px;
     background-color: transparent ;
     height: 50px;
     width: 200px;
@@ -118,7 +144,7 @@
     margin-top:10px;
     text-align: center;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
-    padding-top: 1%;
+    padding-top: 0.5%;
 }
 .knapp:hover  {
     background-color: #283618;
@@ -252,8 +278,13 @@ input[type=text], select, textarea {
   
 .container-form {
     border-radius: 5px;
+
     background-color: #FEFAE0;
     padding-top:100px;
+
+    padding: 20px;
+
+
   }
   
   @media screen and (max-width: 390px) {
@@ -276,7 +307,7 @@ input[type=text], select, textarea {
   }
   
   /* Responsivitet forside */
-  @media only screen and (max-width: 600px){
+  @media only screen and (max-width: 730px){
 
     .headline {
       position: absolute;
@@ -284,6 +315,7 @@ input[type=text], select, textarea {
       word-wrap: break-word;
       height: 70%;
       padding-bottom: 20%;
+      color: #FEFAE0;
      
     }
 
@@ -296,7 +328,10 @@ input[type=text], select, textarea {
     .knapp {
       width: 20%; 
       justify-content: left;  
-      padding-top: 2%;
+      position: absolute;
+      bottom: 10%;
+      right: 10%;
+      
       
     }
 
@@ -304,7 +339,8 @@ input[type=text], select, textarea {
         font-size: medium;
         position: absolute;
         left: 7%;
-        justify-content: center;    
+        justify-content: center;  
+        height: 10%; 
         
     }
 
