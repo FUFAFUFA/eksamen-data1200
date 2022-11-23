@@ -179,7 +179,7 @@
  body::-webkit-scrollbar {
      display: none;
 }
-
+ /*usikker på om denne er i bruk enda*/
  .header-booking {
      background-color: #946229;
      position: relative;
@@ -214,19 +214,7 @@
      display: inline-flex;
 }
 
- .overlay {
-     filter:brightness(40%);
-     background-image: url(../bilder/bakgrunn.png);
-     background-repeat: no-repeat;
-     background-size: cover;
-     height:100vh;
-     color:white;
-     display:flex;
-     justify-content: center;
-     font-size: 40px;
-     align-items:center;
-}
-
+ 
  /*Style for skjema */
 h2{
     font-family: 'Rubik Mono One', sans-serif;
