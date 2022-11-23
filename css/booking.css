@@ -17,6 +17,17 @@
 .location{
     display: flex;
     position: relative;
+
+    padding-top: 100px;
+    padding-right: 200px;
+    
+}
+.container-form {
+    border-radius: 5px;
+    background-color: #FEFAE0;  
+    padding-top: 50px;
+    padding-right: 200px;
+
     padding-top: 50px;
     padding-right: 200px;
 }
