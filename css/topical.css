@@ -26,6 +26,11 @@ body {
     padding-top: 50px;
 }
 
+.link-topical:link {
+    color: #283618;
+
+}
+
 .link-topical:hover{
     color: #283618;
 }
