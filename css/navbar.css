@@ -109,7 +109,7 @@ ul{
 .nav-toggler{
 	height: 34px;
 	width: 44px;
-	background-color: #ffffff;
+	background-color: #818049;
 	border-radius: 4px;
 	cursor: pointer;
 	display: none;
@@ -162,7 +162,7 @@ ul{
        visibility: visible;
     }
     .header #nav-check:focus ~ .nav-toggler{
-    	box-shadow: 0 0 15px #000000;
+    	box-shadow: 0 0 0px #000000;
     }
     .header #nav-check:checked ~ .nav-toggler span{
     	background-color: transparent;
