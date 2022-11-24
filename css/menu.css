@@ -5,6 +5,12 @@ body {
     margin:0;
 }
 
+@media only screen and (max-width: 600px) {
+    .pris{
+        position: unset;
+        float: unset;
+   }
+}
 * {
     box-sizing: border-box;
   }
@@ -44,12 +50,7 @@ body {
        top: 0;
        float: right;
   }
-   @media only screen and (max-width: 600px) {
-       .pris{
-           position: unset;
-           float: unset;
-      }
-  }
+
    .meny-rett {
        grid-area: meny-rett;
        font-size: normal;
