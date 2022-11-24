@@ -37,7 +37,7 @@
     padding-top: 50px;
     padding-right: 200px;
     justify-content: center;
-    padding-left: 500px;
+    padding-left: 300px;
     
     
 }
@@ -48,7 +48,7 @@
 
 .container-booking {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -92,15 +92,16 @@ input[type=date]{
 }
 /* Kode fra blogduda.no */
 .map-responsive {
- padding:20px;
+  padding-left: 40vw;
+
 }
 
 .map-responsive iframe{
-  height:30%;
+  height:60%;
   width:30%;
   left:100px;
   top:900px;
-  position:absolute;
+  /*position:absolute;*/
 }
 
 @media only screen and (max-width: 600px) {
