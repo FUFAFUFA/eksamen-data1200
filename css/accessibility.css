@@ -27,10 +27,8 @@ p {
         flex-direction: column;
         padding-left: 10%;
         /*width: 10%;*/
-
     }
 
     p {
         width: 80vw;
-
     }
