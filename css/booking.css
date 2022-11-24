@@ -55,6 +55,19 @@
 h2{
   padding-left: 50px;
 }
+.underoverskrift-booking{
+  padding-left: 250px;
+}
+
+.form-child1{
+  padding-left: 200px;
+}
+.form-child2{
+  padding-left: 200px;
+}
+.form-child3{
+  padding-left: 400px;
+}
 
 input[type=text]{
   width: 400px;
@@ -75,7 +88,7 @@ input[type=date]{
 
 .form-child3{
   padding-top: 50px;
-  padding-left: 150px;
+  padding-left: 325px;
   padding-bottom: 50px;
 }
 .overlay {
