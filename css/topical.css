@@ -72,12 +72,12 @@ ul {
 
 }
 
-.link-topical:hover{
+.link-topical:visited{
     color: #283618;
 }
 
-.link-topical:visited{
-    color: #283618;
+.link-topical:hover{
+    color: #bc6c25;
 }
 
 
