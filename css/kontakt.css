@@ -5,8 +5,12 @@ body {
     margin:0;
 }
 
+input[type=text]{
+  padding-left: 200px;
+}
+
 input[type=text], select, textarea {
-    width: 100%;
+    width: 400px;
     padding: 12px;
     border: 1px solid #fffbe1;
     border-radius: 4px;
