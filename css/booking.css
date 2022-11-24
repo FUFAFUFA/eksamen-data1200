@@ -9,11 +9,12 @@
 .bookingtitle{
     color:#37B4E8;
     font-size: 50px;
-    position: relative;
+    position: absolute;
     margin-left: 15%;
-    bottom:200%;
+    margin-top:-25%;
     font-family: 'Rubik Mono One', sans-serif;
-    transform: translate( -1%, -500% );
+    text-shadow: 2px 2px 8px rgb(7, 36, 63);
+    
 }
 .location{
     display: flex;
@@ -70,7 +71,7 @@ input[type=date]{
   padding-bottom: 50px;
 }
 .overlay {
-    filter:brightness(40%);
+    filter:brightness(60%);
     background-image: url(../bilder/bakgrunn.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -104,7 +105,8 @@ input[type=date]{
     }
     .bookingtitle {
        position: absolute;
-       margin-top:15%;
+       margin-top:-40%;
+       font-size: medium;
     }
     .location {
         position: relative;
@@ -150,6 +152,7 @@ input[type=date]{
         display: table;
         clear: both;
       }
+      
     
       
    }
