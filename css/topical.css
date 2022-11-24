@@ -10,16 +10,24 @@ body {
     flex-direction: column;  
     padding-left: 370px;
     padding-bottom: 50px;
+    line-height: 200%;
 }
 .container-topical2 {
     display: flex;
     flex-direction: column;  
     padding-left: 370px;
+    line-height: 200%;
 }
 .container-topical3 {
     display: flex;
     flex-direction: column;  
     padding-left: 370px;
+    padding-top: 20px;
+    line-height: 200%;
+}
+
+h1{
+    padding-bottom: 10px;
     padding-top: 20px;
 }
 
@@ -55,6 +63,8 @@ ul {
 .underoverskrift-topical {
     font-size: 20px;
     font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .link-topical:link {
