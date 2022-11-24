@@ -23,13 +23,22 @@
     padding-right: 200px;
     
 }
+.adresse-booking:link{
+  color: #283618;
+}
+.adresse-booking:visited{
+  color: #283618;
+}
+.adresse-booking:hover{
+  color: #bc6c25;
+}
 .container-form {
     border-radius: 5px;
     background-color: #FEFAE0;  
     padding-top: 50px;
     padding-right: 200px;
     justify-content: center;
-    padding-left: 500px;
+    padding-left: 300px;
     
     
 }
@@ -40,12 +49,25 @@
 
 .container-booking {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 
 h2{
   padding-left: 50px;
+}
+.underoverskrift-booking{
+  padding-left: 250px;
+}
+
+.form-child1{
+  padding-left: 200px;
+}
+.form-child2{
+  padding-left: 200px;
+}
+.form-child3{
+  padding-left: 400px;
 }
 
 input[type=text]{
@@ -67,7 +89,7 @@ input[type=date]{
 
 .form-child3{
   padding-top: 50px;
-  padding-left: 150px;
+  padding-left: 325px;
   padding-bottom: 50px;
 }
 .overlay {
@@ -84,18 +106,20 @@ input[type=date]{
 }
 /* Kode fra blogduda.no */
 .map-responsive {
- padding:20px;
- display: flex;
- position: relative;
+
+  padding-left: 40vw;
+
 
 }
 
 .map-responsive iframe{
-  height:70%;
-  width:110%;
-  right:500px;
-  top:250px;
-  position:relative;
+
+  height:60%;
+  width:30%;
+  left:100px;
+  top:900px;
+  /*position:absolute;*/
+
 }
 
 @media only screen and (max-width: 600px) {
