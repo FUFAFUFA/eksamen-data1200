@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600&display=swap');
+body {
+    background-color:#FEFAE0;
+    font-family: 'Inconsolata', monospace;
+    margin:0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+   .wrapper {
+       max-width: 1024px;
+       margin-left: auto;
+       margin-right: auto;
+       margin-bottom: 50px;
+  }
+   .meny {
+       display: grid;
+       grid-template-columns: repeat(auto-fill, minmax(360px, 500px));
+       grid-gap: 1.5rem;
+  }
+  /* .meny-del {
+       display: grid;
+       grid-template-columns: 150px minmax(200px 280px) 60px;
+       grid-template-rows: autofill(30px 1fr);
+       grid-column-gap: 10px;
+       grid-template-areas: "img meny-rett pris" "img beskrivelse . ";
+       margin-top: 10px;
+       margin-bottom: 10px;
+       align-items: top;
+  }
+   */
+   .meny-del{
+       position: relative;
+       display: flex;
+  }
+   .meny > .meny-del > img{
+       margin-right: 10px;
+  }
+   .pris{
+       position: absolute;
+       right: 10px;
+       top: 0;
+       float: right;
+  }
+   @media only screen and (max-width: 600px) {
+       .pris{
+           position: unset;
+           float: unset;
+      }
+  }
+   .meny-rett {
+       grid-area: meny-rett;
+       font-size: normal;
+       font-weight: bolder;
+  }
+   .pris::after {
+       content: " kr ";
+       font-weight: bold;
+  }
+   .pris {
+       grid-area: pris;
+       font-weight: bold;
+  }
+   .beskrivelse {
+       grid-area: beskrivelse;
+       margin: 1;
+  }
+   h1 {
+       margin: 0;
+       font-size: 1rem;
+  }
+   .col-container {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: flex-start;
+       align-items: stretch;
+       align-content: stretch;
+  }
