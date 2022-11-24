@@ -8,22 +8,46 @@ body {
 .container-topical {
     display: flex;
     flex-direction: column;
-    width: 800px;
+    
     padding-left: 370px;
 }
 
+p {
+    width: 60vw; 
+}
+
+ul {
+    width: 60vw;
+}
+
 .bilde-topical1 {
-    width: 500px;
+    width: 40vw;
     height: auto;
     padding-left: 500px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    padding-top: 50px;
 }
 
 .bilde-topical2 {
-    width: 500px;
+    width: 40vw;
     height: auto;
     padding-left: 500px;
     padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.overskrift-topical {
+    font-size: 40px;
+    font-weight: bold;
+}
+.underoverskrift-topical {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.link-topical:link {
+    color: #283618;
+
 }
 
 .link-topical:hover{
@@ -33,3 +57,65 @@ body {
 .link-topical:visited{
     color: #283618;
 }
+
+
+
+.footer {
+    background-image: linear-gradient(#BC6C25, #946229);
+    color:#FEFAE0;
+    height:90px;
+    padding:30px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top:20px;
+    padding-left: 20%;
+}
+
+address {
+    padding-right: 20%;
+}
+
+.telefonnummer {
+    color: #FEFAE0;
+    text-decoration: none;
+  }
+  
+  .telefonnummer:hover{
+    color: #283618;
+    text-decoration: none;
+  }
+   .mailen {
+       color: #FEFAE0;
+       text-decoration: none;
+  }
+   .mailen:hover {
+       color: #283618;
+       text-decoration: none;
+  }
+
+  @media only screen and (max-width: 900px){
+    .container-topical {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10%;
+        /*width: 10%;*/
+
+    }
+
+    p {
+        width: 80vw;
+
+    }
+
+    .bilde-topical1 {
+        width: 60vw;
+        height: auto;
+        padding-left: 20%;
+    }
+
+    .bilde-topical2 {
+        width: 60vw;
+        height: auto;
+        padding-left: 20%;
+    }
+  }
