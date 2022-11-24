@@ -1,6 +1,48 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600&display=swap');
+
 body {
     background-color:#FEFAE0;
     font-family: 'Inconsolata', monospace;
     margin:0;
+}
+
+.container-accessibility {
+    display: flex;
+    flex-direction: column;
+    padding-left: 370px;
+}
+
+p {
+    width: 60vw; 
+}
+
+.underoverskrift-accessibility{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.bilde-accessibility{
+    width: 40vw;
+    height: auto;
+    padding-bottom: 50px;
+    padding-left: 100px;
+}
+
+@media only screen and (max-width: 900px){
+    .container-accessibility {
+        display: flex;
+        flex-direction: column;
+        padding-left: 10%;
+        /*width: 10%;*/
+    }
+
+    p {
+        width: 80vw;
+    }
+
+    img {
+        width: 60vw;
+        height: auto;
+    }
+
 }
