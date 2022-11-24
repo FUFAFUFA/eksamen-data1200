@@ -1,7 +1,7 @@
 .info-tekst {
     text-align: center;
     padding-bottom:50px;
-    padding-top:50px;
+    padding-top:2px;
     position: relative;
     margin-left:29%;
     width:40%;
@@ -9,11 +9,12 @@
 .bookingtitle{
     color:#37B4E8;
     font-size: 50px;
-    position: relative;
+    position: absolute;
     margin-left: 15%;
-    bottom:200%;
+    margin-top:-25%;
     font-family: 'Rubik Mono One', sans-serif;
-    transform: translate( -1%, -500% );
+    text-shadow: 2px 2px 8px rgb(7, 36, 63);
+    
 }
 .location{
     display: flex;
@@ -92,7 +93,7 @@ input[type=date]{
   padding-bottom: 50px;
 }
 .overlay {
-    filter:brightness(40%);
+    filter:brightness(60%);
     background-image: url(../bilder/bakgrunn.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -105,16 +106,20 @@ input[type=date]{
 }
 /* Kode fra blogduda.no */
 .map-responsive {
+
   padding-left: 40vw;
+
 
 }
 
 .map-responsive iframe{
+
   height:60%;
   width:30%;
   left:100px;
   top:900px;
   /*position:absolute;*/
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -124,7 +129,8 @@ input[type=date]{
     }
     .bookingtitle {
        position: absolute;
-       margin-top:15%;
+       margin-top:-40%;
+       font-size: medium;
     }
     .location {
         position: relative;
@@ -170,6 +176,7 @@ input[type=date]{
         display: table;
         clear: both;
       }
+      
     
       
    }
