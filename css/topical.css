@@ -40,3 +40,27 @@ body {
 .link-topical:visited{
     color: #283618;
 }
+
+.footer {
+    background-image: linear-gradient(#BC6C25, #946229);
+    color:#FEFAE0;
+    height:90px;
+    padding:30px;
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top:20px;
+}
+
+.telefonnummer {
+    color: #FEFAE0;
+  }
+  
+  .telefonnummer:hover{
+    color: #283618;
+  }
+   .mailen {
+       color: #FEFAE0;
+  }
+   .mailen:hover {
+       color: #283618;
+  }
