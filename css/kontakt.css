@@ -5,8 +5,16 @@ body {
     margin:0;
 }
 
-input[type=text]{
-  padding-left: 200px;
+h2{
+  padding-left: 500px;
+}
+.kontakt-form{
+  padding-left: 500px;
+}
+.knapp-kontakt{
+  padding-left: 150px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 input[type=text], select, textarea {
