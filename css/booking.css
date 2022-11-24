@@ -1,7 +1,7 @@
 .info-tekst {
     text-align: center;
     padding-bottom:50px;
-    padding-top:50px;
+    padding-top:2px;
     position: relative;
     margin-left:29%;
     width:40%;
@@ -84,14 +84,17 @@ input[type=date]{
 /* Kode fra blogduda.no */
 .map-responsive {
  padding:20px;
+ display: flex;
+ position: relative;
+
 }
 
 .map-responsive iframe{
-  height:30%;
-  width:30%;
-  left:100px;
-  top:900px;
-  position:absolute;
+  height:70%;
+  width:110%;
+  right:500px;
+  top:250px;
+  position:relative;
 }
 
 @media screen and (max-width: 600px) {
