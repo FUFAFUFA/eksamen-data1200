@@ -16,7 +16,8 @@ body {
     width: 500px;
     height: auto;
     padding-left: 500px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
+    padding-top: 50px;
 }
 
 .bilde-topical2 {
@@ -24,6 +25,7 @@ body {
     height: auto;
     padding-left: 500px;
     padding-top: 50px;
+    padding-bottom: 40px;
 }
 
 .link-topical:link {
