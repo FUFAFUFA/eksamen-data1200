@@ -8,6 +8,35 @@
      margin:0;
 }
 
+footer {
+  background-image: linear-gradient(#BC6C25, #946229);
+  color:#FEFAE0;
+  height:150px;
+  padding:30px;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top:20px;
+}
+
+ /*Footer linker*/
+ .telefonnummer {
+  color: #FEFAE0;
+}
+
+.telefonnummer:hover{
+  color: #283618;
+}
+ .mailen {
+     color: #FEFAE0;
+}
+ .mailen:hover {
+     color: #283618;
+}
+ a {
+     text-decoration: none;
+}
+/*linker stopp*/
+
 * {
   box-sizing: border-box;
 
@@ -96,86 +125,6 @@
   filter:brightness(80%);
 }
 
-.container-forside {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin: 0%;
-  padding: 0%;
-  border: 0em;
-  filter:blur(199%);
-}
-
-.bakgrunnsbilde {
-  /*width: 100%;
-  height: 600px; */
-  height: auto;
-  
-
-
-  /*
-  background-position: center;
-  background-color: #946229;
-  height: auto;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  height: 500px;
-  filter:brightness(80%);*/
-}
-
-.headline {
-  position: absolute;
-  font-size: 100px;
-  color: #FEFAE0;
-  font-size: 8vw;
-  text-shadow: 2px 2px 8px rgb(166, 92, 31);
-}
-    
-.knapp {
-    position: absolute;
-    bottom: 10%;
-    left: 2%;
-    cursor: pointer;
-    border: 2px solid whitesmoke;
-    border-radius: 5px;
-    background-color: transparent ;
-    height: 50px;
-    width: 200px;
-    color: white;
-    font-weight: bolder;
-    font-size: 1.5em;
-    margin-top:10px;
-    text-align: center;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
-    padding-top: 0.5%;
-}
-.knapp:hover  {
-    background-color: #283618;
-}
- #bookinglink:hover{
-     color: #FEFAE0;
-}
- #bookinglink {
-     color: #FEFAE0;
-     text-decoration: none;
-}
-.telefonnummer {
-  color: #FEFAE0;
-}
-
-.telefonnummer:hover{
-  color: #283618;
-}
- .mailen {
-     color: #FEFAE0;
-}
- .mailen:hover {
-     color: #283618;
-}
- a {
-     text-decoration: none;
-}
  body::-webkit-scrollbar {
      display: none;
 }
@@ -194,15 +143,7 @@
      align-content: center;
      align-items: center;
 }
- footer {
-     background-image: linear-gradient(#BC6C25, #946229);
-     color:#FEFAE0;
-     height:150px;
-     padding:30px;
-     text-align: center;
-     padding-bottom: 20px;
-     padding-top:20px;
-}
+
  .book {
      margin-left:500px;
      color:white;
@@ -268,8 +209,6 @@ input[type=text], select, textarea {
     }
   }
   
-
-  
   @media screen and (max-width: 390px) {
     form, input[type=submit] {
       padding:10px;
@@ -289,45 +228,4 @@ input[type=text], select, textarea {
     
   }
   
-  /* Responsivitet forside */
-  @media only screen and (max-width: 730px){
-
-    .headline {
-      position: absolute;
-      font-size: 10vw;
-      word-wrap: break-word;
-      height: 70%;
-      padding-bottom: 20%;
-      color: #FEFAE0;
-     
-    }
-
-    .bakgrunnsbilde {
-      height: 350px;
-      width: auto;
-      
-    }
-    
-    .knapp {
-      width: 20%; 
-      justify-content: left;  
-      position: absolute;
-      bottom: 10%;
-      right: 10%;
-      
-      
-    }
-
-    #bookinglink {
-        font-size: medium;
-        position: absolute;
-        left: 7%;
-        justify-content: center;  
-        height: 10%; 
-        
-    }
-    .footer {
-        font-size: small;     
-    }
-
-  }
+  
