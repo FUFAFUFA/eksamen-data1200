@@ -58,6 +58,8 @@ ul {
     color: #283618;
 }
 
+
+
 .footer {
     background-image: linear-gradient(#BC6C25, #946229);
     color:#FEFAE0;
@@ -66,20 +68,29 @@ ul {
     text-align: center;
     padding-bottom: 20px;
     padding-top:20px;
+    padding-left: 20%;
+}
+
+address {
+    padding-right: 20%;
 }
 
 .telefonnummer {
     color: #FEFAE0;
+    text-decoration: none;
   }
   
   .telefonnummer:hover{
     color: #283618;
+    text-decoration: none;
   }
    .mailen {
        color: #FEFAE0;
+       text-decoration: none;
   }
    .mailen:hover {
        color: #283618;
+       text-decoration: none;
   }
 
   @media only screen and (max-width: 900px){
