@@ -14,15 +14,8 @@
     margin-top:-25%;
     font-family: 'Rubik Mono One', sans-serif;
     text-shadow: 2px 2px 8px rgb(7, 36, 63);
-    
 }
-.location{
-    display: flex;
-    position: relative;
-    padding-top: 100px;
-    padding-right: 200px;
-    
-}
+
 .adresse-booking:link{
   color: #283618;
 }
@@ -140,10 +133,7 @@ input[type=date]{
       width:300px;
       margin-right: 50%;
     }
-    .location {
-        position: relative;
-        
-    }
+
 
     .container-form {
       padding-left: 10%;
@@ -185,7 +175,18 @@ input[type=date]{
         display: table;
         clear: both;
       }
+      .map-responsive {
+        padding-left: 40vw;
+      }
       
+      .map-responsive iframe{
+      
+        height:80%;
+        width:100%;
+        left:300px;
+        top:900px;
+      
+      }
     
       
    }
