@@ -1,40 +1,5 @@
 
-/*
-.logo a img{
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    font-style: oblique;
-    width: 100%;
- 
-}
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; 
-    padding-left: 5%;
-    padding-right: 5%;
-    
-}
-
-nav ul li {
-    display: inline-block; 
-    padding: 20px 70px; 
-    list-style-type: none;
-}
-
-nav ul li a{
-    color:#363d1d;
-    text-decoration: none; 
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 21px;
-}
-
-nav ul li a:hover{
-    color: #606C38;
-}
-*/
 
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600&display=swap');
 
