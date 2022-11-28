@@ -36,69 +36,58 @@ nav ul li a:hover{
 }
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600&display=swap');
+
+
 :root{
     --color-1: #FEFAE0;
   }
 
-body{
-	line-height: 1.5;
-	font-family: sans-serif;
-	background-color: #c6cde0;
-}
+
 *{
 	box-sizing: border-box;
 	margin:0;
 	padding:0;
 }
-a{
-	text-decoration: none;
-}
-ul{
-	list-style: none;
-}
+
 .container{
-	max-width: 1170px;
 	margin: auto;
 }
-.row{
-	display: flex;
-	flex-wrap: wrap;
-}
-.align-items-center{
-	align-items: center;
-}
-.justify-content-between{
-	justify-content: space-between;
-}
-/*header*/
-.header{
-	background-color: var(--color-1);
-	padding:12px 0;
+
+.header .logo {
 	position: relative;
 }
-.header .logo,
-.header .nav{
-	padding:0 15px;
+
+.liste-rad{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
 }
-.header .logo a{
-	font-size: 30px;
-	color: #ffffff;
-	text-transform: capitalize;
+
+.header{
+	padding:12px;
 }
-.header .nav ul li{
+
+.header .navbar{
+	padding: 15px;
+	position: absolute;
+	margin-left: 230px;
+}
+
+
+.header .navbar .nav-ul li{
 	display: inline-block;
-	margin-left: 40px;
+	margin-left: 50px;
 }
-.header .nav ul li a{
+.header .navbar .nav-ul li a{
 	display: block;
-	font-size: 16px;
-	padding:10px 0;
+	font-family: 'Inconsolata', monospace;
+	font-size: 20px;
 	color: #283618;
-	text-transform: capitalize;
-	transition: all 0.5s ease;
 }
-.header .nav ul li a:hover,
-.header .nav ul li a.active{
+.header .navbar .nav-ul li a:hover,
+.header .navbar .nav-ul li a.active{
 	color: #606C38;
 }
 .header #nav-check{
@@ -107,8 +96,8 @@ ul{
 	pointer-events: none;
 }
 .nav-toggler{
-	height: 34px;
-	width: 44px;
+	height: 40px;
+	width: 55px;
 	background-color: #818049;
 	border-radius: 4px;
 	cursor: pointer;
@@ -139,11 +128,11 @@ ul{
 .nav-toggler span::after{
 	top: 6px;
 }
-@media(max-width: 500px){
+@media(max-width: 800px){
     .nav-toggler{
     	display: flex;
     }
-    .header .nav{
+    .header .navbar{
     	position: absolute;
     	left:0;
     	top:100%;
@@ -151,15 +140,16 @@ ul{
     	background-color: var(--color-1);
     	border-top: 1px solid rgba(255,255,255,0.2);
     	opacity:0;
-    	visibility: hidden;
+    	justify-content: space-between;
+		
     }
-    .header .nav ul li{
+    .header .navbar .nav-ul li{
     	display: block;
     	margin:0;
     }
-    .header #nav-check:checked ~ .nav{
+    .header #nav-check:checked ~ .navbar{
        opacity: 1;
-       visibility: visible;
+       
     }
     .header #nav-check:focus ~ .nav-toggler{
     	box-shadow: 0 0 0px #000000;
@@ -176,9 +166,7 @@ ul{
     	transform: rotate(-45deg);
     }
 
-    .headline {
-        display: none;
-    }
+ 
 
 
 }
