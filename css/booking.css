@@ -49,6 +49,7 @@ input[type=submit]:hover {
   font-size: 40px;
   font-weight: bold;
   color: #bc6c25;
+  margin-right: 200%;
 }
 /*Style for linker*/
 .adresse-booking:link{
@@ -121,7 +122,7 @@ input[type=sumbit]{
   color:white;
   background-position-y: 60%;
 }
-/* Kode fra blogduda.no */
+/* Kode fra blogduda.no .. kode for kart*/
 .map-responsive {
   padding-left: 40vw;
 }
@@ -158,6 +159,10 @@ input[type=sumbit]{
       align-content: space-around;
       width:100%;
  }
+ .container-form p{
+  margin-left: 22vw;
+  padding-bottom: 5%;
+}
   .form-child1{
       width: 20vw;
       white-space: nowrap;
