@@ -47,7 +47,10 @@
 
 
 .underoverskrift-booking{
-  padding-left: 250px;
+  padding-left: 20%;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .form-child1{
