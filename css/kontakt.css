@@ -49,7 +49,17 @@ input[type=text], select, textarea {
   input[type=submit]:hover {
     background-color: #454e25;
   }  
+  .header-index {
+    object-fit: contain;
   
+    filter:brightness(80%);
+  }
+  .header-index img {
+    height: 50%;
+    position: relative;
+    width:50%;
+    filter:brightness(80%);
+  }
 /* Clear floats after the columns */
 .row:after {
     content: "";
