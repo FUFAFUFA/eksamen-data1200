@@ -9,7 +9,6 @@ body {
     display: flex;
     flex-direction: column;  
     padding-left: 25%;
-    padding-bottom: 3%;
     line-height: 150%;
 }
 .container-topical2 {
@@ -60,6 +59,11 @@ p {
     font-size: 40px;
     font-weight: bold;
 } */
+
+#underoverskrift-topical{
+    font-size: 30px;
+    font-weight: bold;
+}
 
 .underoverskrift-topical {
     font-size: 20px;

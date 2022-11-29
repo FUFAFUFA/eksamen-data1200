@@ -38,7 +38,7 @@ footer {
 /*linker stopp*/
 
 .header-index {
-  background-image: url("/bilder/headers/location1.jpg");
+  background-image: url("bilder/headers/location1.jpg");
   background-position: center;
   background-color: #946229;
   height: auto;
@@ -81,10 +81,7 @@ footer {
 
  
  /*Style for skjema */
-h2{
-    font-family: 'Rubik Mono One', sans-serif;
-    color:#363d1d;
-}
+
 input[type=text], select, textarea {
   width: 20%;
   padding: 12px;

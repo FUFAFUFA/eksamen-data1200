@@ -74,8 +74,12 @@ input[type=text], select, textarea {
     }
 
     .knapp-kontakt{
-      padding-right: 15%;
+      padding-right: 40%;
 
+    }
+
+    input[type=text], textarea{
+      width: 80%;
     }
 
     .footer {
