@@ -7,7 +7,7 @@ input[type=text], select, textarea {
   background-color: #ede9ce;
   resize: vertical;
 }
-input[type=date], select, date {
+input[type=date], select {
   width: 10%;
   padding: 12px;
   border: 1px solid #ede9ce;
@@ -32,7 +32,7 @@ input[type=submit]:hover {
 }
 /*Info om the next event*/
 .info-tekst {
-  padding-bottom:50px;
+  padding-bottom:10%;
   padding-top:2%;
   position: relative;
   margin-left:29%;
@@ -44,8 +44,8 @@ input[type=submit]:hover {
   justify-content: space-between;
 }
 .overskrift-booking{
-  padding-bottom:10%;
-  padding-top: 15%;
+  padding-bottom:5%;
+  padding-top: 1%;
   font-size: 40px;
   font-weight: bold;
   color: #bc6c25;
@@ -76,6 +76,7 @@ input[type=submit]:hover {
   background-color: #FEFAE0;
   margin-left: -15vw;
   padding-left: 27vw;
+ 
 }
 .container-form p{
   margin-left: 18vw;
@@ -83,14 +84,19 @@ input[type=submit]:hover {
 }
 .form-child1{
   padding-left: 20%;
+  justify-content: space-between;
+  width: 20vw;
+  white-space: nowrap;
+  order:1;
 }
 .form-child2{
   padding-left: 20%;
+  order:2;
+  justify-content: space-between;
 }
 .form-child3{
-  padding-left: 20%;
-  padding-top: 3%;
-  padding-bottom: 5%;
+ 
+  order:3;
 }
 /*Størrelse på input felt*/
 input[type=text]{
@@ -208,8 +214,8 @@ input[type=sumbit]{
   .map-responsive iframe{
       height:80%;
       width:100%;
-      margin-left: -32%;
-      margin-right: -32%;
-      top:900px;
+      margin-left: -38%;
+      margin-right: -38%;
+      top:90vw;
  }
 }
