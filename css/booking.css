@@ -1,5 +1,4 @@
-
-
+/*Skjema Style*/
 input[type=text], select, textarea {
   width: 20%;
   padding: 12px;
@@ -7,44 +6,51 @@ input[type=text], select, textarea {
   border-radius: 4px;
   background-color: #ede9ce;
   resize: vertical;
-  }
-  input[type=date], select, date {
-    width: 10%;
-    padding: 12px;
-    border: 1px solid #ede9ce;
-    background-color: #ede9ce;
-    border-radius: 4px;
-    resize: vertical;
-  }
-  label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-  }
-  input[type=submit] {
-    background-color: #606C38;
-    color: white;
-    padding: 12px 20px 10px 10px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    /*float: right;*/
-  }
-  input[type=submit]:hover {
-    background-color: #193112;
-  }  
-  
-
-
-
-.info-tekst {
-    padding-bottom:50px;
-    padding-top:2%;
-    position: relative;
-    margin-left:29%;
-    width:40%;
 }
-
-
+input[type=date], select, date {
+  width: 10%;
+  padding: 12px;
+  border: 1px solid #ede9ce;
+  background-color: #ede9ce;
+  border-radius: 4px;
+  resize: vertical;
+}
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+input[type=submit] {
+  background-color: #606C38;
+  color: white;
+  padding: 12px 20px 10px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #193112;
+}
+/*Info om the next event*/
+.info-tekst {
+  padding-bottom:50px;
+  padding-top:2%;
+  position: relative;
+  margin-left:29%;
+  width:40%;
+}
+.container-booking {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.overskrift-booking{
+  padding-bottom:10%;
+  padding-top: 15%;
+  font-size: 40px;
+  font-weight: bold;
+  color: #bc6c25;
+}
+/*Style for linker*/
 .adresse-booking:link{
   color: #283618;
 }
@@ -54,24 +60,26 @@ input[type=text], select, textarea {
 .adresse-booking:hover{
   color: #bc6c25;
 }
-.container-form {
-    border-radius: 5px;
-    background-color: #FEFAE0;  
-    margin-left: -10vw;
-    padding-left: 300px;
-}
-
-.container-booking {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+/*Flexbox skjema style*/
 .underoverskrift-booking{
   padding-bottom:5%;
+
+  padding-top: 15%;
+  margin-left: 20%;
 
   font-size: 40px;
   font-weight: bold;
   color: #bc6c25;
+}
+.container-form {
+  border-radius: 5px;
+  background-color: #FEFAE0;
+  margin-left: -15vw;
+  padding-left: 300px;
+}
+.container-form p{
+  margin-left: 18vw;
+  padding-bottom: 5%;
 }
 .form-child1{
   padding-left: 20%;
@@ -81,14 +89,13 @@ input[type=text], select, textarea {
 }
 .form-child3{
   padding-left: 20%;
-  padding-top: 10%;
-  padding-bottom: 10%;
+  padding-top: 3%;
+  padding-bottom: 5%;
 }
-
+/*Størrelse på input felt*/
 input[type=text]{
   width: 400px;
 }
-
 input[type=date]{
   width: 400px;
 }
@@ -102,124 +109,103 @@ input[type=sumbit]{
   width: 400px;
 }
 #folk{
-    width: 400px;
+  width: 400px;
 }
-
+/*Header*/
 .overlay {
-    filter:brightness(80%);
-    background-image: url(../bilder/headers/bookingforside.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:30vw;
-    color:white;
-    background-position-y: 60%;
+  filter:brightness(80%);
+  background-image: url(../bilder/headers/bookingforside.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height:30vw;
+  color:white;
+  background-position-y: 60%;
 }
 /* Kode fra blogduda.no */
 .map-responsive {
   padding-left: 40vw;
 }
-
 .map-responsive iframe{
-
   height:80%;
   width:80%;
   margin-left:-26%;
   top:90%;
-  /*position:absolute;*/
-
 }
-
 @media only screen and (max-width: 600px) {
-    .overlay{
+  .overlay{
       width: 100%;
       height:300px;
-    }
-    .info-tekst {
+ }
+  .info-tekst {
       width:80%;
       right:20%;
-    }
-    .info-tekst-h2 {
+ }
+  .info-tekst-h2 {
       text-align:center;
       width:300px;
       margin-right: 50%;
-    }
-    .underoverskrift-booking{
+ }
+  .underoverskrift-booking{
       width:100%;
       margin-left: 22%;
-     padding-top: 0%;
-    
-    }
-
-    .container-form {
+      padding-top: 0%;
+ }
+  .container-form {
       padding-left:1%;
       display: flex;
       flex-wrap: wrap;
-      flex-direction:row;  
+      flex-direction:row;
       align-content: space-around;
       width:100%;
-  }
-
-
+ }
   .form-child1{
-    width: 20vw;
-    white-space: nowrap;
-    order:1;
-    margin-left: 2%;
-    justify-content: space-between;
-  
-  }
-
+      width: 20vw;
+      white-space: nowrap;
+      order:1;
+      margin-left: 2%;
+      justify-content: space-between;
+ }
   .form-child2{
-    width: 20vw;
-    white-space: nowrap;
-    order:2;
-    margin-left: 20%;
-    justify-content: space-between;
-  
-  }
-
+      width: 20vw;
+      white-space: nowrap;
+      order:2;
+      margin-left: 20%;
+      justify-content: space-between;
+ }
   input[type=text]{
-    width: 35vw;
-  }
-
+      width: 35vw;
+ }
   input[type=date]{
-    width: 35vw;
-  }
-
+      width: 35vw;
+ }
   #time{
-    width: 35vw;
-  }
+      width: 35vw;
+ }
   #event{
-    width: 35vw;
-  }
+      width: 35vw;
+ }
   #folk{
       width: 35vw;
-  }
+ }
   .form-child3{
-    width: 40vw;
-    order:3;
-    flex-grow: 2%;
-  }
-
-      
-    /* Clear floats after the columns */
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
-      }
-      .map-responsive {
-        padding-left: 40vw;
-      }
-      
-      .map-responsive iframe{
-      
-        height:80%;
-        width:100%;
-        margin-left: -32%;
-        margin-right: -32%;
-        top:900px;
-      
-      }
-
-   }
+      width: 40vw;
+      order:3;
+      flex-grow: 2%;
+ }
+ /* Clear floats after the columns */
+  .row:after {
+      content: "";
+      display: table;
+      clear: both;
+ }
+  .map-responsive {
+      padding-left: 40vw;
+ }
+  .map-responsive iframe{
+      height:80%;
+      width:100%;
+      margin-left: -32%;
+      margin-right: -32%;
+      top:900px;
+ }
+}
