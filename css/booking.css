@@ -63,9 +63,9 @@ input[type=submit]:hover {
 }
 /*Flexbox skjema style*/
 .underoverskrift-booking{
-  padding-bottom:5%;
-  padding-top: 5%;
-  margin-left: 20%;
+  padding-bottom:5vw;
+  padding-top: 5vw;
+  margin-left: 25vw;
   font-size: 40px;
   font-weight: bold;
   color: #bc6c25;
@@ -83,20 +83,23 @@ input[type=submit]:hover {
   padding-bottom: 5%;
 }
 .form-child1{
-  padding-left: 20%;
+  padding-left: 25vw;
   justify-content: space-between;
   width: 20vw;
   white-space: nowrap;
   order:1;
 }
 .form-child2{
-  padding-left: 20%;
+  padding-left: 25vw;
   order:2;
   justify-content: space-between;
 }
 .form-child3{
  
   order:3;
+  padding-left: 35vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
 }
 /*Størrelse på input felt*/
 input[type=text]{
