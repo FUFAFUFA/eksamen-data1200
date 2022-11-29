@@ -53,10 +53,10 @@ body {
 	color: #283618;
 	
 }
-.header .navbar .nav-ul li a:hover,
-.header .navbar .nav-ul li a.active{
-	color: #606C38;
+.header .navbar .nav-ul li a:hover{
+	opacity: 0.5;
 }
+
 .header #nav-check{
 	position: absolute;
 	opacity:0;
@@ -65,7 +65,7 @@ body {
 .nav-toggler{
 	height: 40px;
 	width: 55px;
-	background-color: #818049;
+	background-color: #606C38;
 	border-radius: 4px;
 	cursor: pointer;
 	display: none;
@@ -95,7 +95,7 @@ body {
 .nav-toggler span::after{
 	top: 6px;
 }
-@media(max-width: 800px){
+@media(max-width: 1030px){
     .nav-toggler{
     	display: flex;
     }
@@ -106,7 +106,7 @@ body {
 		margin-left: 0;
 		top: 18%;
     	width: 100%;
-    	background-color: var(--color-1);
+    	background-color: #606C38;
     	opacity:0;
     	justify-content: space-between;
 		visibility: hidden;
@@ -118,6 +118,7 @@ body {
     }
 	.header .navbar .nav-ul li a{
 		padding: 15px;
+		color: #FEFAE0;
 	}
     .header #nav-check:checked ~ .navbar{
        opacity: 1;
