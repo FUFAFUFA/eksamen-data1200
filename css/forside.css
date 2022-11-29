@@ -68,11 +68,6 @@ body {
      text-decoration: none;
 }
 
-.infotekst-forside{
-  background-color: #606C38;
-  height: 400px;
-}
-
 /* Responsiv forside */
 @media only screen and (max-width: 800px){
 
