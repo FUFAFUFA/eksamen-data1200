@@ -5,15 +5,7 @@
     margin-left:29%;
     width:40%;
 }
-.bookingtitle{
-    color:#37B4E8;
-    font-size: 50px;
-    position: absolute;
-    margin-left: 15%;
-    margin-top:-25%;
-    font-family: 'Rubik Mono One', sans-serif;
-    text-shadow: 2px 2px 8px rgb(7, 36, 63);
-}
+
 
 .adresse-booking:link{
   color: #283618;
@@ -31,8 +23,6 @@
     padding-right: 200px;
     justify-content: center;
     padding-left: 300px;
-    
-    
 }
 .container-form {
     border-radius: 5px;
@@ -44,13 +34,11 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
-
 .underoverskrift-booking{
-  padding-left: 20%;
-  color: black;
+  padding-bottom:10%;
   font-size: 40px;
   font-weight: bold;
+  color: #bc6c25;
 }
 .form-child1{
   padding-left: 20%;
@@ -103,10 +91,10 @@ input[type=sumbit]{
 
 .map-responsive iframe{
 
-  height:60%;
-  width:30%;
-  left:100px;
-  top:900px;
+  height:80%;
+  width:80%;
+  margin-left:-26%;
+  top:90%;
   /*position:absolute;*/
 
 }
@@ -133,18 +121,18 @@ input[type=sumbit]{
     }
     .underoverskrift-booking{
       width:100%;
-      white-space:nowrap;
+    
     }
 
     .container-form {
       padding-left:1%;
       display: flex;
       flex-wrap: wrap;
-      flex-direction: column;
-      flex-flow: column;
-      justify-content: space-evenly;
+      flex-direction:row;  
       align-content: space-around;
       width:100%;
+
+    
   }
 
 
@@ -152,33 +140,35 @@ input[type=sumbit]{
     width: 20vw;
     white-space: nowrap;
     order:1;
+    margin-left: 2%;
   }
 
   .form-child2{
     width: 20vw;
     white-space: nowrap;
     order:2;
+    margin-left: 20%;
   }
 
   input[type=text]{
-    width: 40vw;
+    width: 35vw;
   }
 
   input[type=date]{
-    width: 40vw;
+    width: 35vw;
   }
 
   #time{
-    width: 40vw;
+    width: 35vw;
   }
   #event{
-    width: 40vw;
+    width: 35vw;
   }
   #folk{
-      width: 40vw;
+      width: 35vw;
   }
   .form-child3{
-    width: 20vw;
+    width: 40vw;
     order:3;
     flex-grow: 2%;
   }

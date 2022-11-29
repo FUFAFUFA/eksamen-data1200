@@ -38,7 +38,7 @@ footer {
 /*linker stopp*/
 
 .header-index {
-  background-image: url("/bilder/headers/location1.jpg");
+  background-image: url("...bilder/headers/location1.jpg");
   background-position: center;
   background-color: #946229;
   height: auto;
