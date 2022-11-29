@@ -77,4 +77,8 @@ input[type=text], select, textarea {
 
     }
 
+    .footer {
+      font-size: small;     
+  }
+
   }
