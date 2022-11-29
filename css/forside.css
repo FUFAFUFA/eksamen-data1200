@@ -8,6 +8,8 @@ body {
     background-color:#FEFAE0;
     font-family: 'Inconsolata', monospace;
     margin:0;
+    padding:0;
+    overflow-x:hidden;
 }
 
 .container-forside {
@@ -66,8 +68,13 @@ body {
      text-decoration: none;
 }
 
+.infotekst-forside{
+  background-color: #606C38;
+  height: 400px;
+}
+
 /* Responsiv forside */
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
 
     .headline {
       position: absolute;
@@ -81,7 +88,7 @@ body {
   
 
     .bakgrunnsbilde {
-      height: 350px;
+      height: 90%;
       width: auto;
       
     }
