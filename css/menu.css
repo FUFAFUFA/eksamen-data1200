@@ -27,33 +27,43 @@ body {
        grid-gap: 1.5rem;
   }
 
-   .meny-del{
+   .meny-del {
        position: relative;
        display: flex;
   }
-   .meny > .meny-del > img{
+
+    /* bilde ved siden av retten */
+   .meny > .meny-del > img {
        margin-right: 10px;
   }
-   .pris{
+
+    /* plassering av pris */
+   .pris {
        position: absolute;
        right: 10px;
        top: 0;
        float: right;
   }
 
+    /* rettens navn */
    .meny-rett {
        grid-area: meny-rett;
        font-size: normal;
        font-weight: bolder;
   }
+
+  /* "kr" kommer etter prisen */
    .pris::after {
        content: " kr ";
        font-weight: bold;
   }
+    /* gjør pris bold */
    .pris {
        grid-area: pris;
        font-weight: bold;
   }
+
+    /* beskrivelse/info om retten */
    .beskrivelse {
        grid-area: beskrivelse;
        margin: 1;
@@ -70,5 +80,10 @@ body {
        align-items: stretch;
        align-content: stretch;
   }
+
+  /* spacing mellom allergener i tekst og ikoner */
+  .allergener {
+    padding-top: 20px;
+}
 
 
