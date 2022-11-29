@@ -34,21 +34,17 @@ body {
 
   .knapp {
     position: absolute;
-    bottom: 10%;
-    left: 2%;
-    cursor: pointer;
+    margin-top: 20vw;
     border: 2px solid whitesmoke;
     border-radius: 5px;
-    background-color: transparent ;
+    background-color: transparent;
     height: 50px;
     width: 200px;
     color: white;
     font-weight: bolder;
     font-size: 1.5em;
-    margin-top:10px;
     text-align: center;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
-    padding-top: 0.5%;
 }
 
 .knapp:hover  {
@@ -83,10 +79,9 @@ body {
     
     .knapp {
       width: 20%; 
-      justify-content: left;  
       position: absolute;
-      bottom: 10%;
-      right: 10%;
+      margin-top: 30vw;
+      padding-right: 15vw;
       
       
     }
