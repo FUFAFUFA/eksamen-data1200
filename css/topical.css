@@ -165,3 +165,7 @@ address {
 
     }
   }
+
+  .kulepunkter {
+    padding-inline-start: 35px;
+}
