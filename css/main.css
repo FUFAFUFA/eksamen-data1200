@@ -9,12 +9,14 @@
 footer {
   background-image: linear-gradient(#BC6C25, #946229);
   color:#FEFAE0;
-  height:150px;
+  height:180px;
   padding:30px;
   text-align: center;
   padding-bottom: 20px;
   padding-top:30px;
 }
+
+
 
  /*Footer linker*/
  .telefonnummer {
