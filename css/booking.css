@@ -49,7 +49,7 @@ input[type=submit]:hover {
   font-size: 40px;
   font-weight: bold;
   color: #bc6c25;
-  margin-right: 200%;
+  
 }
 /*Style for linker*/
 .adresse-booking:link{
@@ -64,19 +64,18 @@ input[type=submit]:hover {
 /*Flexbox skjema style*/
 .underoverskrift-booking{
   padding-bottom:5%;
-
-  padding-top: 15%;
+  padding-top: 5%;
   margin-left: 20%;
-
   font-size: 40px;
   font-weight: bold;
   color: #bc6c25;
 }
+
 .container-form {
   border-radius: 5px;
   background-color: #FEFAE0;
   margin-left: -15vw;
-  padding-left: 300px;
+  padding-left: 27vw;
 }
 .container-form p{
   margin-left: 18vw;
