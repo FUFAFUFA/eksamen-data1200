@@ -10,7 +10,7 @@ body {
     flex-direction: column;  
     padding-left: 25%;
     padding-bottom: 3%;
-    line-height: 200%;
+    line-height: 150%;
 }
 .container-topical2 {
     display: flex;
@@ -23,7 +23,7 @@ body {
     flex-direction: column;  
     padding-left: 25%;
     padding-top: 3%;
-    line-height: 200%;
+    line-height: 150%;
 }
 
 h1{
@@ -64,7 +64,7 @@ ul {
     font-size: 20px;
     font-weight: bold;
     padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 25px;
 }
 
 .link-topical:link {
@@ -140,8 +140,6 @@ address {
 
     p {
         width: 80vw;
-
-
     }
 
     ul{

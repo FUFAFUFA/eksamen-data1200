@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-left: 370px;
+    line-height: 150%;
 }
 
 p {
@@ -20,7 +21,7 @@ p {
     font-size: 30px;
     font-weight: bold;
     padding-bottom: 10px;
-    padding-top: 10px;
+    padding-top: 25px;
 }
 
 .bilde-accessibility{
