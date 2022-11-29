@@ -31,8 +31,6 @@
     padding-right: 200px;
     justify-content: center;
     padding-left: 300px;
-    
-    
 }
 .container-form {
     border-radius: 5px;
@@ -44,14 +42,11 @@
     flex-direction: column;
     justify-content: space-between;
 }
-
-
 .underoverskrift-booking{
-
   padding-bottom:10%;
-  color: black;
   font-size: 40px;
   font-weight: bold;
+  color: #bc6c25;
 }
 .form-child1{
   padding-left: 20%;
@@ -104,10 +99,10 @@ input[type=sumbit]{
 
 .map-responsive iframe{
 
-  height:60%;
-  width:30%;
-  left:100px;
-  top:900px;
+  height:80%;
+  width:80%;
+  margin-left:-26%;
+  top:90%;
   /*position:absolute;*/
 
 }
@@ -134,7 +129,7 @@ input[type=sumbit]{
     }
     .underoverskrift-booking{
       width:100%;
-      white-space:nowrap;
+    
     }
 
     .container-form {
