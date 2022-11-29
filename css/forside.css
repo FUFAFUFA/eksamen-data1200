@@ -30,6 +30,8 @@ body {
     color: #FEFAE0;
     font-size: 8vw;
     text-shadow: 2px 2px 8px rgb(166, 92, 31);
+    padding-left: 6%;
+    padding-top: 6%;
   }
 
   .knapp {
@@ -45,14 +47,18 @@ body {
     font-size: 1.5em;
     text-align: center;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    margin-left: 8%;
+    margin-top: 28%;
 }
 
 .knapp:hover  {
     background-color: #283618;
 }
+
  #bookinglink:hover{
      color: #FEFAE0;
 }
+
  #bookinglink {
      color: #FEFAE0;
      text-decoration: none;
@@ -80,8 +86,9 @@ body {
     .knapp {
       width: 20%; 
       position: absolute;
-      margin-top: 30vw;
-      padding-right: 15vw;
+      margin-top: 40vw;
+      
+      
       
       
     }
