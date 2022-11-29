@@ -36,6 +36,7 @@
 }
 .underoverskrift-booking{
   padding-bottom:10%;
+  padding-top: 15%;
   font-size: 40px;
   font-weight: bold;
   color: #bc6c25;
@@ -105,12 +106,6 @@ input[type=sumbit]{
       width:80%;
       right:20%;
     }
-    .bookingtitle {
-       position: absolute;
-       margin-top:-40%;
-       font-size: medium;
-       white-space: nowrap;
-    }
     .info-tekst-h2 {
       text-align:center;
       width:300px;
@@ -118,6 +113,7 @@ input[type=sumbit]{
     }
     .underoverskrift-booking{
       width:100%;
+     
     
     }
 
