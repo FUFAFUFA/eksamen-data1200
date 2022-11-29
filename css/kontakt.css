@@ -17,6 +17,9 @@ h2{
   padding-bottom: 1vw;
   
 }
+.underoverskift-kontakt {
+  color:#BC6C25;
+}
 
 input[type=text], select, textarea {
     width: 400px;
