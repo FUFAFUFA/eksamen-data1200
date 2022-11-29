@@ -67,8 +67,8 @@ input[type=text], select, textarea {
     justify-content: space-between;
 }
 .underoverskrift-booking{
-  padding-bottom:10%;
-  padding-top: 15%;
+  padding-bottom:5%;
+
   font-size: 40px;
   font-weight: bold;
   color: #bc6c25;
