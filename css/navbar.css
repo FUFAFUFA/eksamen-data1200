@@ -30,9 +30,7 @@
 	justify-content: space-between;
 }
 
-.header{
-	padding:12px;
-}
+
 
 .header .navbar{
 	padding: 15px;
@@ -98,13 +96,14 @@
     .nav-toggler{
     	display: flex;
     }
+	
     .header .navbar{
+		z-index: 1;
     	position: absolute;
-    	left:0;
-    	top:100%;
+		margin-left: 0;
+		top: 18%;
     	width: 100%;
     	background-color: var(--color-1);
-    	border-top: 1px solid rgba(255,255,255,0.2);
     	opacity:0;
     	justify-content: space-between;
 		visibility: hidden;
@@ -114,14 +113,15 @@
     	display: block;
     	margin:0;
     }
+	.header .navbar .nav-ul li a{
+		margin: 10px;
+	}
     .header #nav-check:checked ~ .navbar{
        opacity: 1;
 	   visibility: visible;
        
     }
-    .header #nav-check:focus ~ .nav-toggler{
-    	box-shadow: 0 0 0px #000000;
-    }
+
     .header #nav-check:checked ~ .nav-toggler span{
     	background-color: transparent;
     }
