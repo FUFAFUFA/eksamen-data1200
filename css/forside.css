@@ -72,6 +72,7 @@ body {
 }
 /*Forsidebilde slutt*/
 
+/*Informasjonstekst*/
 .info-seksjon {
   display: flex;
   flex-direction: row;
@@ -81,12 +82,14 @@ body {
 
 .diverse-info {
   align-self: auto;
-  padding-right: 20px;
+  padding-right: 25%;
 }
 
 .åpningstider {
   align-self: auto;
+  padding-right: 10%;
 }
+/*Informasjonstekst slutt*/
 
 
 
