@@ -83,11 +83,13 @@ body {
 .diverse-info {
   align-self: auto;
   padding-right: 25%;
+  font-size: 25px;
 }
 
 .åpningstider {
   align-self: auto;
   padding-right: 10%;
+  font-size: 20px;
 }
 /*Informasjonstekst slutt*/
 
