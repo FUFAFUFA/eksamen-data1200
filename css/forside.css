@@ -100,26 +100,34 @@ body {
 
     .headline {
       position: absolute;
-      font-size: 10vw;
+      font-size: 7vw;
       word-wrap: break-word;
       height: 70%;
       padding-bottom: 20%;
       color: #FEFAE0;
      
     }
+
+    .åpningstider {
+      font-size: 15px;
+    }
+
+    .diverse-info {
+      font-size: 20px;
+    }
   
 
     .bakgrunnsbilde {
-      height: 90%;
+      height: 100%;
       width: auto;
       
     }
     
     .knapp {
       height: 45px;
-      width: 20%; 
+      width: 15%; 
       position: absolute;
-      margin-top: 40vw;
+      margin-top: 25vw;
       
     }
 
