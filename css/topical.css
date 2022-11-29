@@ -60,6 +60,11 @@ p {
     font-weight: bold;
 } */
 
+#underoverskrift-topical{
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .underoverskrift-topical {
     font-size: 20px;
     font-weight: bold;
