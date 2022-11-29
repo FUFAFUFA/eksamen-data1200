@@ -149,7 +149,8 @@ address {
     }
 
     .kulepunkter {
-        padding-left: 20%;
+        padding-left: 10%;
+        box-sizing: content-box
     }
 
     .bilde-topical1 {
