@@ -5,6 +5,7 @@ body {
     margin:0;
 }
 
+/*Fikser posisjonen til avsnittene*/
 .container-topical1 {
     display: flex;
     flex-direction: column;  
@@ -24,7 +25,9 @@ body {
     padding-top: 3%;
     line-height: 150%;
 }
+/*posisjon slutt*/
 
+/*Fikser tekstenes posisjon*/
 h1{
     padding-bottom: 10px;
     padding-top: 20px;
@@ -38,7 +41,25 @@ p {
     width: 60vw;
     padding-left: 5%;
 }
+/*Tekstposisjon slutt*/
 
+
+/*Fikser underoverskrifters størrelse og posisjon*/
+#FAQ-underoverskrift-topical{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.underoverskrift-topical {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 25px;
+}
+/*Underoverskrift slutt*/
+
+
+/*Dimensjoner for bilder*/
 .bilde-topical1 {
     width: 65vw;
     height: 30vw;
@@ -54,24 +75,9 @@ p {
     padding-bottom: 5%;
     padding-top: 5%;
 }
+/*Bilder slutt*/
 
-/*.overskrift-topical {
-    font-size: 40px;
-    font-weight: bold;
-} */
-
-#underoverskrift-topical{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-.underoverskrift-topical {
-    font-size: 20px;
-    font-weight: bold;
-    padding-bottom: 10px;
-    padding-top: 25px;
-}
-
+/*Farge til linker*/
 .link-topical:link {
     color: #283618;
 
@@ -84,9 +90,10 @@ p {
 .link-topical:hover{
     color: #bc6c25;
 }
+/*Linker slutt*/
 
 
-
+/*Footer*/
 .footer {
     background-image: linear-gradient(#BC6C25, #946229);
     color:#FEFAE0;
@@ -119,13 +126,16 @@ address {
        color: #283618;
        text-decoration: none;
   }
+  /*Footer slutt*/
 
+
+  /*Responsiv topicalside*/
   @media only screen and (max-width: 900px){
     .container-topical1 {
         display: flex;
         flex-direction: column;
         padding-left: 10%;
-        /*width: 10%;*/
+        
 
     }
  
@@ -133,14 +143,14 @@ address {
         display: flex;
         flex-direction: column;
         padding-left: 10%;
-        /*width: 10%;*/
+        
 
     }
     .container-topical3 {
         display: flex;
         flex-direction: column;
         padding-left: 10%;
-        /*width: 10%;*/
+        
 
     }
 
@@ -170,3 +180,4 @@ address {
 
     }
   }
+  /*Responsivitet slutt*/
