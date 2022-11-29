@@ -11,6 +11,8 @@ body {
         float: unset;
    }
 }
+
+ /* posisjonering av navn og rett slik at navn er på linje med bilde */
 * {
     box-sizing: border-box;
   }
@@ -32,7 +34,7 @@ body {
        display: flex;
   }
 
-    /* bilde ved siden av retten */
+    /* mellomrom mellom bilde og info om rett */
    .meny > .meny-del > img {
        margin-right: 10px;
   }
@@ -68,10 +70,12 @@ body {
        grid-area: beskrivelse;
        margin: 1;
   }
+
    h1 {
        margin: 0;
        font-size: 1rem;
   }
+
    .col-container {
        display: flex;
        flex-direction: row;
