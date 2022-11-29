@@ -36,6 +36,7 @@
 }
 .underoverskrift-booking{
   padding-bottom:10%;
+  padding-top: 15%;
   font-size: 40px;
   font-weight: bold;
   color: #bc6c25;
@@ -73,16 +74,13 @@ input[type=sumbit]{
 }
 
 .overlay {
-    filter:brightness(60%);
-    background-image: url(../bilder/bakgrunn.png);
+    filter:brightness(80%);
+    background-image: url(../bilder/headers/bookingforside.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height:500px;
+    height:30vw;
     color:white;
-    display:flex;
-    justify-content: center;
-    font-size: 40px;
-    align-items:center;
+    background-position-y: 60%;
 }
 /* Kode fra blogduda.no */
 .map-responsive {
@@ -108,12 +106,6 @@ input[type=sumbit]{
       width:80%;
       right:20%;
     }
-    .bookingtitle {
-       position: absolute;
-       margin-top:-40%;
-       font-size: medium;
-       white-space: nowrap;
-    }
     .info-tekst-h2 {
       text-align:center;
       width:300px;
@@ -121,6 +113,7 @@ input[type=sumbit]{
     }
     .underoverskrift-booking{
       width:100%;
+     
     
     }
 
