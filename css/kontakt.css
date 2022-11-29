@@ -5,20 +5,20 @@ body {
     margin:0;
 }
 
-h2{
+/*Størrelse på overskrift*/
+.underoverskift-kontakt {
   padding-left: 36%;
+  color:#BC6C25;
 }
+/*Størrelse slutt*/
+
+
+/*Fikser skjemaets størrelse og posisjon*/
 .kontakt-form{
   padding-left: 36%;
 }
-.knapp-kontakt{
-  padding-left: 20%;
-  padding-top: 3vw;
-  padding-bottom: 1vw;
-  
-}
-.underoverskift-kontakt {
-  color:#BC6C25;
+.form-kontakt {
+  padding:20px;
 }
 
 input[type=text], select, textarea {
@@ -29,17 +29,21 @@ input[type=text], select, textarea {
     background-color: #ede9ce;
     resize: vertical;
   }
-  input[type=date], select {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ede9ce;
-    border-radius: 4px;
-    resize: vertical;
-  }
+
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
   }
+
+ 
+  /*Fikser knapp under skjema*/
+  .knapp-kontakt{
+    padding-left: 20%;
+    padding-top: 3vw;
+    padding-bottom: 1vw;
+    
+  }
+
   input[type=submit] {
     background-color: #606C38;
     color: white;
@@ -47,32 +51,20 @@ input[type=text], select, textarea {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    /*float: right;*/
   }
   input[type=submit]:hover {
     background-color: #454e25;
   }  
-  .header-index {
-    object-fit: contain;
-  
-    filter:brightness(80%);
-  }
-  .header-index img {
-    height: 50%;
-    position: relative;
-    width:50%;
-    filter:brightness(80%);
-  }
+
 /* Clear floats after the columns */
 .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  .form-kontakt {
-    padding:20px;
-  }
 
+  
+/*Responsivitet*/
   @media only screen and (max-width: 900px){
 
     h2 {

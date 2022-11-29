@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
  @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600&display=swap');
  body {
      background-color:#FEFAE0;
@@ -11,12 +9,14 @@
 footer {
   background-image: linear-gradient(#BC6C25, #946229);
   color:#FEFAE0;
-  height:150px;
+  height:180px;
   padding:30px;
   text-align: center;
   padding-bottom: 20px;
   padding-top:30px;
 }
+
+
 
  /*Footer linker*/
  .telefonnummer {

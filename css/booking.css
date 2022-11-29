@@ -63,8 +63,10 @@ input[type=submit]:hover {
 /*Flexbox skjema style*/
 .underoverskrift-booking{
   padding-bottom:5%;
+
   padding-top: 15%;
   margin-left: 20%;
+
   font-size: 40px;
   font-weight: bold;
   color: #bc6c25;
