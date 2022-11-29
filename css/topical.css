@@ -61,17 +61,14 @@ p {
 
 /*Dimensjoner for bilder*/
 .bilde-topical1 {
-    width: 65vw;
     height: 30vw;
-    padding-left: 30%;
     padding-bottom: 5%;
     padding-top: 5%;
+    padding-left: 10%;
 }
 
 .bilde-topical2 {
-    width: 65vw;
     height: 30vw;
-    padding-left: 30%;
     padding-bottom: 5%;
     padding-top: 5%;
 }
@@ -166,13 +163,13 @@ address {
     .bilde-topical1 {
         width: 90vw;
         height: auto;
-        padding-left: 25%;
+        padding-left: 10%;
     }
 
     .bilde-topical2 {
         width: 90vw;
         height: auto;
-        padding-left: 25%;
+        padding-left: 10%;
     }
 
     .footer-p{
