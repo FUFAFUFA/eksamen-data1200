@@ -6,15 +6,15 @@ body {
 }
 
 h2{
-  padding-left: 500px;
+  padding-left: 36%;
 }
 .kontakt-form{
-  padding-left: 500px;
+  padding-left: 36%;
 }
 .knapp-kontakt{
-  padding-left: 150px;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  padding-left: 20%;
+  padding-top: 3vw;
+  padding-bottom: 1vw;
 }
 
 input[type=text], select, textarea {
@@ -57,4 +57,24 @@ input[type=text], select, textarea {
   }
   .form-kontakt {
     padding:20px;
+  }
+
+  @media only screen and (max-width: 900px){
+
+    h2 {
+      padding-left: 8vw;
+    }
+    .form-kontakt{
+      padding-left: 8vw;
+    }
+
+    .kontakt-form{
+      padding-left: 8vw;
+    }
+
+    .knapp-kontakt{
+      padding-right: 15%;
+
+    }
+
   }
