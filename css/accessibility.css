@@ -17,8 +17,10 @@ p {
 }
 
 .underoverskrift-accessibility{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .bilde-accessibility{
@@ -40,9 +42,6 @@ p {
         width: 80vw;
     }
 
-    img {
-        width: 60vw;
-        height: auto;
-    }
+
 
 }
