@@ -35,7 +35,7 @@ p {
     width: 60vw; 
 }
 
-ul {
+.kulepunkter {
     width: 60vw;
 }
 
@@ -144,7 +144,7 @@ address {
 
     }
 
-    ul{
+    .kulepunkter {
         padding-left: 20%;
     }
 
@@ -165,7 +165,3 @@ address {
 
     }
   }
-
-  .kulepunkter {
-    padding-inline-start: 3%;
-}
