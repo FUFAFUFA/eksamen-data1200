@@ -8,8 +8,11 @@ body {
     background-color:#FEFAE0;
     font-family: 'Inconsolata', monospace;
     margin:0;
+    padding:0;
+    overflow-x:hidden;
 }
 
+/*Alt innenfor forsidebilde*/
 .container-forside {
     display: flex;
     flex-direction: column;
@@ -57,17 +60,20 @@ body {
     cursor: pointer;
 }
 
+/*Teksten inni knappen*/
  #bookinglink:hover{
      color: #FEFAE0;
 }
 
+/*Teksten inni knappen*/
  #bookinglink {
      color: #FEFAE0;
      text-decoration: none;
 }
+/*Forsidebilde slutt*/
 
 /* Responsiv forside */
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 800px){
 
     .headline {
       position: absolute;
@@ -81,7 +87,7 @@ body {
   
 
     .bakgrunnsbilde {
-      height: 350px;
+      height: 90%;
       width: auto;
       
     }
