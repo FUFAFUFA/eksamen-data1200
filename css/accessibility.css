@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     padding-left: 370px;
+    line-height: 150%;
 }
 
 p {
@@ -17,8 +18,10 @@ p {
 }
 
 .underoverskrift-accessibility{
-    font-size: 35px;
+    font-size: 30px;
     font-weight: bold;
+    padding-bottom: 10px;
+    padding-top: 25px;
 }
 
 .bilde-accessibility{
@@ -40,9 +43,6 @@ p {
         width: 80vw;
     }
 
-    img {
-        width: 60vw;
-        height: auto;
-    }
+
 
 }

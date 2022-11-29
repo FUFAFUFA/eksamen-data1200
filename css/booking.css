@@ -1,5 +1,4 @@
 .info-tekst {
-    text-align: center;
     padding-bottom:50px;
     padding-top:2%;
     position: relative;
@@ -45,9 +44,8 @@
     flex-direction: column;
     justify-content: space-between;
 }
-h2{
-  padding-left: 50px;
-}
+
+
 .underoverskrift-booking{
   padding-left: 25%;
   width:100%;
@@ -148,6 +146,7 @@ input[type=sumbit]{
       width:100%;
   }
 
+
   .form-child1{
     width: 20vw;
     white-space: nowrap;
@@ -206,6 +205,4 @@ input[type=sumbit]{
         top:900px;
       
       }
-    
-      
    }
