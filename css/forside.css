@@ -34,13 +34,15 @@ body {
     padding-top: 6%;
   }
 
+  
+
   .knapp {
     position: absolute;
     margin-top: 20vw;
     border: 2px solid whitesmoke;
     border-radius: 5px;
     background-color: transparent;
-    height: 50px;
+    height: 30px;
     width: 200px;
     color: white;
     font-weight: bolder;
@@ -53,6 +55,7 @@ body {
 
 .knapp:hover  {
     background-color: #283618;
+    cursor: pointer;
 }
 
  #bookinglink:hover{
