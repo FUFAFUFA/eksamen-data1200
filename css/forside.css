@@ -12,6 +12,7 @@ body {
     overflow-x:hidden;
 }
 
+/*Alt innenfor forsidebilde*/
 .container-forside {
     display: flex;
     flex-direction: column;
@@ -59,14 +60,17 @@ body {
     cursor: pointer;
 }
 
+/*Teksten inni knappen*/
  #bookinglink:hover{
      color: #FEFAE0;
 }
 
+/*Teksten inni knappen*/
  #bookinglink {
      color: #FEFAE0;
      text-decoration: none;
 }
+/*Forsidebilde slutt*/
 
 /* Responsiv forside */
 @media only screen and (max-width: 800px){
