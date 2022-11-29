@@ -1,5 +1,5 @@
 location1 = https://unsplash.com/photos/FS89E75gv04
 location2 = https://unsplash.com/photos/baxEyU9FL7g
 location3 = https://unsplash.com/photos/wVoP_Q2Bg_A
-location4 = 
+bookingforside.jpg = https://unsplash.com/photos/IRzq8sDxb7w
 location6 = https://unsplash.com/photos/yn3tA00iHBg
