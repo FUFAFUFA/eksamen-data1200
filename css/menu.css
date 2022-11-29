@@ -80,3 +80,7 @@ body {
        align-items: stretch;
        align-content: stretch;
   }
+
+  .footer {
+    font-size: small;
+  }
