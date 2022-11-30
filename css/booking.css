@@ -49,7 +49,6 @@ input[type=submit]:hover {
   font-size: 40px;
   font-weight: bold;
   color: #bc6c25;
-  
 }
 /*Style for linker*/
 .adresse-booking:link{
@@ -137,13 +136,12 @@ input[type=sumbit]{
       margin-left: 22%;
       padding-top: 0%;
  }
- .booking-form{
-  padding-left: 8vw;
-}
-
-input[type=text]{
-  width: 80%;
-}
+  .booking-form{
+      padding-left: 8vw;
+ }
+  input[type=text]{
+      width: 80%;
+ }
   input[type=date]{
       width: 80%;
  }
@@ -151,21 +149,10 @@ input[type=text]{
       width: 80%;
  }
   #event{
-    width: 80%;
+      width: 80%;
  }
   #folk{
-    width: 80%;
- }
-  .form-child3{
-      width: 40vw;
-      order:3;
-      flex-grow: 2%;
- }
- /* Clear floats after the columns */
-  .row:after {
-      content: "";
-      display: table;
-      clear: both;
+      width: 80%;
  }
   .map-responsive {
       padding-left: 40vw;
