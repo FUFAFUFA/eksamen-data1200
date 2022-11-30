@@ -38,12 +38,11 @@ input[type=text], select, textarea {
  
   /*Fikser knapp under skjema*/
   .knapp-kontakt{
-    padding-left: 20%;
+   
     padding-top: 3vw;
     padding-bottom: 1vw;
     
   }
-
   input[type=submit] {
     background-color: #606C38;
     color: white;
@@ -63,7 +62,6 @@ input[type=text], select, textarea {
     clear: both;
   }
 
-  
 /*Responsivitet*/
   @media only screen and (max-width: 900px){
 
