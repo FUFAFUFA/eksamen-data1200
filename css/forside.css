@@ -116,14 +116,13 @@ body {
     .diverse-info {
       font-size: 15px;
     }
-  
 
     .bakgrunnsbilde {
       height: 100%;
       width: auto;
       
     }
-    
+  
     .knapp {
       height: 45px;
       width: 15%; 
@@ -131,13 +130,11 @@ body {
       margin-top: 25vw;
       
     }
-
     #bookinglink {
         font-size: medium;
         position: absolute;
         left: 7%;
         justify-content: center;  
         height: 10%; 
-        
     }
   }

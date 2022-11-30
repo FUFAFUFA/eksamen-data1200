@@ -5,7 +5,7 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="css/navbar.css" >
-      <link rel="stylesheet" href="css/main.css" >
+      <link rel="stylesheet" href="css/main.css" > 
       <link rel="stylesheet" href="css/booking.css" >
       <link rel="icon" type="image/icon type" href="bilder/firework.png">
       <title>Booking</title>
@@ -54,44 +54,46 @@
                style="border-style:solid; border-color: #606c38; border-width: 2px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
          </div>
       </div>
-      <form class="container-form">
-         <h2 class="underoverskrift-booking">Book event her</h2>
-         <div class="form-child1">
-            <label for="navn">Navn</label><br>
-            <input type="text"><br>
-            <label for="email">E-post</label><br>
-            <input type="text"><br>
-            <label for="telefon">Telefon</label><br>
-            <input type="text"><br>
+
+
+     
+   <!--Booking skjema-->
+         <div>
+         <form class="booking-form">
+            <h2 class="underoverskift-booking">Send oss en melding</h2>
+             <label for="navn">Navn</label><br>
+             <input type="text"><br>
+             <label for="email">E-post</label><br>
+             <input type="text"><br>
+             <label for="telefon">Telefon</label><br>
+             <input type="text"><br>
+             <label for="Dato">Dato</label><br>
+             <input type="date"><br>
+             <label for="event">Velg et event:</label><br>
+             <select name="evnet" id="event">
+                <option value="4">Firmaselskap</option>
+                <option value="5">Event</option>
+                <option value="6">Bryllup</option>
+                <option value="7">Bursdag</option>
+                <option value="8">Fiesta</option>
+             </select>
+             <br>
+             <label for="folk">Antall personer:</label><br>
+             <select name="folk" id="folk">
+                <option value="4">10-20</option>
+                <option value="5">20-40</option>
+                <option value="6">40-80</option>
+                <option value="7">80-100</option>
+                <option value="8">100-150</option>
+             </select>
+             <br>
+                 <div class="knapp-booking">
+                 <input type="submit" value="Bestill event">
+                 </div>
+            </form>     
          </div>
-         <div class="form-child2">
-            <label for="Dato">Dato</label><br>
-            <input type="date"><br>
-            <label for="event">Velg et event:</label><br>
-            <select name="evnet" id="event">
-               <option value="4">Firmaselskap</option>
-               <option value="5">Event</option>
-               <option value="6">Bryllup</option>
-               <option value="7">Bursdag</option>
-               <option value="8">Fiesta</option>
-            </select>
-            <br>
-            <label for="folk">Antall personer:</label><br>
-            <select name="folk" id="folk">
-               <option value="4">10-20</option>
-               <option value="5">20-40</option>
-               <option value="6">40-80</option>
-               <option value="7">80-100</option>
-               <option value="8">100-150</option>
-            </select>
-            <br>
-         </div>
-         <div class="form-child3">
-            <input type="submit" value="Bestill">
-         </div>
-      </form>
-      </div>
-      <div class="footer">
+
+      
       <div class="footer">
          <footer>
             <p>For spørsmål knyttet til booking kontakt oss på <a href="tel:+ 47 406 31 411" class="telefonnummer">+47 406 31 411</a> eller <a href="mailto:booking@thenextevent.no" class="mailen">booking@thenextevent.no</a></p>
