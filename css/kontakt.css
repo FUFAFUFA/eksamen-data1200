@@ -82,5 +82,11 @@ input[type=text], select, textarea {
     input[type=text], textarea{
       width: 80%;
     }
+    .underoverskift-kontakt {
+      color:#BC6C25;
+      margin-left: 0vw;
+      font-size: 30px;
+      padding-bottom: 1%;
+    }
 
   }
