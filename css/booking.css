@@ -32,7 +32,7 @@ input[type=submit]:hover {
 }
 /*Info om the next event*/
 .info-tekst {
-  padding-bottom:10%;
+  padding-bottom:5%;
   padding-top:2%;
   position: relative;
   margin-left:29%;
