@@ -37,13 +37,10 @@ input[type=text], select, textarea {
     display: inline-block;
   }
 
- 
   /*Fikser knapp under skjema*/
   .knapp-kontakt{
-  
     padding-top: 3vw;
     padding-bottom: 1vw;
-    
   }
   input[type=submit] {
     background-color: #606C38;
@@ -66,26 +63,22 @@ input[type=text], select, textarea {
 
 /*Responsivitet*/
   @media only screen and (max-width: 900px){
-
     h2 {
       padding-left: 8vw;
     }
     .form-kontakt{
       padding-left: 8vw;
     }
-
     .kontakt-form{
       padding-left: 8vw;
     }
-
-
     input[type=text], textarea{
       width: 80%;
     }
     .underoverskift-kontakt {
       color:#BC6C25;
-      margin-left: vw;
       font-size: 30px;
+      margin-left: 0%;
       padding-bottom: 1%;
     }
 
