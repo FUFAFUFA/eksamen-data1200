@@ -33,22 +33,8 @@ footer {
      text-decoration: none;
 }
 /*linker stopp*/
-
-
  body::-webkit-scrollbar {
      display: none;
 }
- 
 
-  
-/* Clear floats after the columns */
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
- 
-  
   
