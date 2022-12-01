@@ -71,7 +71,7 @@ input[type=submit]:hover {
 }
 .booking-form{
   padding-left: 33%;
-  padding-top: 2%;
+  padding-top: 5vw;
 }
 .knapp-booking{
   padding-top: 3vw;
@@ -126,6 +126,9 @@ input[type=sumbit]{
       width:80%;
       right:20%;
  }
+ .container-booking  {
+      padding-bottom: 5vw;
+ }
   .info-tekst-h2 {
       text-align:center;
       width:300px;
@@ -137,7 +140,9 @@ input[type=sumbit]{
       padding-top: 0%;
  }
   .booking-form{
+      padding-top: 10%;
       padding-left: 16vw;
+      padding-bottom:5vw;
  }
   input[type=text]{
       width: 80%;
