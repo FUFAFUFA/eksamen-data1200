@@ -30,11 +30,10 @@ body {
   }
 
   /*Tekst over headerbildet*/
-  .headline {
+  #headline {
     position: absolute;
-    font-size: 100px;
     color: #FEFAE0;
-    font-size: 8vw;
+    font-size: 4vw;
     text-shadow: 2px 2px 8px rgb(38,38,29);
     padding-left: 6%;
     padding-top: 6%;
@@ -93,6 +92,10 @@ body {
   font-size: 25px;
 }
 
+#velkommentekst-index{
+  font-size: 3vw;
+}
+
 /*Fikser posisjon og størrelse  på høyre del av infoteksten*/
 .åpningstider {
   align-self: auto;
@@ -101,13 +104,17 @@ body {
   font-size: 20px;
 }
 
+#underoverskrift-index{
+  font-size: 2vw;
+}
+
 
 /* Responsiv forside */
 @media only screen and (max-width: 800px){
 
-    .headline {
+    #headline {
       position: absolute;
-      font-size: 7vw;
+      font-size: 3vw;
       word-wrap: break-word;
       height: 70%;
       padding-bottom: 20%;
