@@ -5,7 +5,10 @@ body {
     font-family: 'Inconsolata', monospace;
     margin:0;
 }
-
+.kulepunkter {
+    width: 60vw;
+    padding-left: 5%;
+}
 /*Fikser posisjon til flexbokser*/
 .container-accessibility {
     display: flex;
@@ -52,6 +55,10 @@ p {
         width: 90vw;
         height: auto;
         padding-right: 20%;
+    }
+    .kulepunkter {
+        padding-left: 10%;
+        box-sizing: content-box;
     }
 }
 /*Responsivitet slutt*/
