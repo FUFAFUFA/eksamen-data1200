@@ -122,6 +122,14 @@ body {
      
     }
 
+    #velkommentekst-index{
+      font-size: 5vw;
+    }
+
+    #underoverskrift-index{
+      font-size: 5vw;
+    }
+
     .åpningstider {
       font-size: 15px;
     }

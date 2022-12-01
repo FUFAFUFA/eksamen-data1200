@@ -39,8 +39,8 @@
 }
 
 /*Fikser underoverskrifters størrelse og posisjon*/
- #FAQ-underoverskrift-topical{
-     font-size: 30px;
+.overskrift-topical{
+     font-size: 40px;
      font-weight: bold;
 }
  .underoverskrift-topical {
@@ -90,6 +90,10 @@
          display: flex;
          flex-direction: column;
          padding-left: 10%;
+    }
+
+    .overskrift-topical{
+        font-size: 7vw;
     }
      p {
          width: 80vw;
