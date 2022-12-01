@@ -19,14 +19,17 @@ body {
 	padding:0;
 }
 
-.container{
+.container-nav{
 	margin: auto;
 }
+
+
 
 .header .logo {
 	position: relative;
 }
 
+/* navbar liste elementer */
 .liste-rad{
 	display: flex;
 	flex-wrap: wrap;
@@ -35,34 +38,41 @@ body {
 }
 
 
-
+/* flytter navbar liste rett ved siden av logo framfor helt til høyre på siden */
 .header .navbar{
 	padding: 15px;
 	position: absolute;
 	margin-left: 230px;
 }
 
-
+/* gjør listen horisontal*/
 .header .navbar .nav-ul li{
 	display: inline-block;
 	margin-left: 50px;
 }
+
+
+/* style for tekst i navbar listen */
 .header .navbar .nav-ul li a{
-	display: block;
 	font-size: 20px;
 	color: #283618;
 	
 }
+
+/* gjør tekst mindre synlig når man holder musen over det */
 .header .navbar .nav-ul li a:hover{
 	opacity: 0.5;
 }
 
+/* gjør checkbox usynlig */
 .header #nav-check{
 	position: absolute;
 	opacity:0;
 	pointer-events: none;
 }
-.nav-toggler{
+
+/* stil for checkbox knapp, samt også gjør den usynlig */
+.nav-avogpå{
 	height: 40px;
 	width: 55px;
 	background-color: #606C38;
@@ -73,15 +83,20 @@ body {
 	justify-content: center;
 	margin-right: 15px;
 }
-.nav-toggler span{
+
+
+/* lager hamburger meny med css */
+.nav-avogpå span{
 	display: block;
 	height: 2px;
 	width: 20px;
 	background-color: var(--color-1);
 	position: relative;
 }
-.nav-toggler span::before,
-.nav-toggler span::after{
+
+/* bruker "before" og "after" for å style foran og etter span element */
+.nav-avogpå span::before,
+.nav-avogpå span::after{
    content: '';
    position: absolute;
    width: 100%;
@@ -89,17 +104,21 @@ body {
    background-color: var(--color-1);
    left:0;
 }
-.nav-toggler span::before{
+.nav-avogpå span::before{
 	top: -6px;
 }
-.nav-toggler span::after{
+.nav-avogpå span::after{
 	top: 6px;
 }
 @media(max-width: 1030px){
-    .nav-toggler{
+
+	/* gjør hamburger meny synlig */
+    .nav-avogpå{
     	display: flex;
     }
 	
+	/* setter den originale navbaren til usynlig på mindre skjermer */
+	/* styler den slik at den passer til responsiv hamburger meny */
     .header .navbar{
 		z-index: 1;
     	position: absolute;
@@ -112,6 +131,8 @@ body {
 		visibility: hidden;
 		
     }
+
+
     .header .navbar .nav-ul li{
     	display: block;
     	margin:0;
@@ -120,20 +141,24 @@ body {
 		padding: 15px;
 		color: #FEFAE0;
 	}
+
+	/* setter den nye navbaren til synlig når checkbox er checked (dvs. hamburger meny trykket på) */
     .header #nav-check:checked ~ .navbar{
        opacity: 1;
 	   visibility: visible;
        
     }
 
-    .header #nav-check:checked ~ .nav-toggler span{
+    
+    .header #nav-check:checked ~ .nav-avogpå span{
     	background-color: transparent;
     }
-    .header #nav-check:checked ~ .nav-toggler span::before{
+	/* gjør hamburger menyen om til et kryss når klikket på */
+    .header #nav-check:checked ~ .nav-avogpå span::before{
     	top:0;
     	transform: rotate(45deg);
     }
-    .header #nav-check:checked ~ .nav-toggler span::after{
+    .header #nav-check:checked ~ .nav-avogpå span::after{
     	top:0;
     	transform: rotate(-45deg);
     }
