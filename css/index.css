@@ -12,7 +12,7 @@ body {
     overflow-x:hidden;
 }
 
-/*Alt innenfor forsidebilde*/
+/*Fikser flexboksenes posisjon*/
 .container-forside {
     display: flex;
     flex-direction: column;
@@ -23,11 +23,13 @@ body {
     filter: blur(199%);
   }
 
+  /*Setter headerbildets lysstyrke ned og fikser størrelsen*/
   .bakgrunnsbilde {
     height: auto;
     filter: brightness(60%);
   }
 
+  /*Tekst over headerbildet*/
   .headline {
     position: absolute;
     font-size: 100px;
@@ -38,6 +40,7 @@ body {
     padding-top: 6%;
   }
 
+  /*Book-event knappen*/
   .knapp {
     position: absolute;
     margin-top: 20vw;
@@ -70,9 +73,10 @@ body {
      color: #FEFAE0;
      text-decoration: none;
 }
-/*Forsidebilde slutt*/
 
-/*Informasjonstekst*/
+
+/*Informasjonstekst under headerbildet*/
+/*Fikser flexboksers posisjon*/
 .info-seksjon {
   display: flex;
   flex-direction: column;
@@ -82,20 +86,20 @@ body {
   background-color: #181912;
 }
 
+/*Fikser posisjon og størrelse  på venstre del av infoteksten*/
 .diverse-info {
   align-self: auto;
   padding-right: 25%;
   font-size: 25px;
 }
 
+/*Fikser posisjon og størrelse  på høyre del av infoteksten*/
 .åpningstider {
   align-self: auto;
   padding-right: 10%;
   padding-top: 25px;
   font-size: 20px;
 }
-/*Informasjonstekst slutt*/
-
 
 
 /* Responsiv forside */
