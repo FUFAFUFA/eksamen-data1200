@@ -5,11 +5,12 @@
      margin:0;
 }
 /*Størrelse på overskrift*/
- .underoverskift-kontakt {
+ #underoverskift-kontakt {
      color:#606C38;
      margin-left: 35vw;
      font-size: 30px;
-     padding-bottom: 1%;
+     
+     padding-top: 1%;
 }
 
 /*Fikser skjemaets størrelse og posisjon*/
@@ -49,6 +50,18 @@
  input[type=submit]:hover {
      background-color: #454e25;
 }
+
+#infotekst-kontakt{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    font-size: 21px;
+    padding-left: 30vw;
+    padding-right: 35vw;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    
+}
 /* Clear floats after the columns */
  .row:after {
      content: "";
@@ -56,8 +69,8 @@
      clear: both;
 }
 /*Responsivitet*/
- @media only screen and (max-width: 900px){
-     h2 {
+ @media only screen and (max-width: 1000px){
+     h1 {
          padding-left: 8vw;
     }
      .form-kontakt{
@@ -72,10 +85,14 @@
     input[type=submit], textarea{
         width: 80%;
    }
-     .underoverskift-kontakt {
-         color:#BC6C25;
+     #underoverskift-kontakt {
+         color:#606C38;
          font-size: 30px;
          margin-left: 0%;
          padding-bottom: 1%;
+    }
+    #infotekst-kontakt {
+        padding-left: 6%;
+        padding-right: 10%;
     }
 }
