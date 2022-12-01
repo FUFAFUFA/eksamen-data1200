@@ -33,8 +33,9 @@
 }
 /*Fikser knapp under skjema*/
  .knapp-kontakt{
-     padding-top: 3vw;
-     padding-bottom: 1vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 11vw;
 }
  input[type=submit] {
      background-color: #606C38;
