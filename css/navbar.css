@@ -137,6 +137,7 @@ body {
     .header .navbar .nav-ul li{
     	display: block;
     	margin:0;
+		padding: 10px;
     }
 	.header .navbar .nav-ul li a{
 		padding: 15px;
