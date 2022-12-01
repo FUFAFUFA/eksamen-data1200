@@ -1,65 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600&display=swap');
-
-body {
-    background-color:#FEFAE0;
-    font-family: 'Inconsolata', monospace;
-    margin:0;
+ body {
+     background-color:#FEFAE0;
+     font-family: 'Inconsolata', monospace;
+     margin:0;
 }
-.kulepunkter {
-    width: 60vw;
-    padding-left: 5%;
+ .kulepunkter {
+     width: 60vw;
+     padding-left: 5%;
 }
 /*Fikser posisjon til flexbokser*/
-.container-accessibility {
-    display: flex;
-    flex-direction: column;
-    padding-left: 370px;
-    line-height: 150%;
+ .container-accessibility {
+     display: flex;
+     flex-direction: column;
+     padding-left: 370px;
+     line-height: 150%;
 }
 /*Flexbokx slutt*/
-
 /*Fikser størrelse og posisjon på tekst*/
-p {
-    width: 60vw; 
+ p {
+     width: 60vw;
 }
-
-.underoverskrift-accessibility{
-    font-size: 30px;
-    font-weight: bold;
-    padding-bottom: 10px;
-    padding-top: 25px;
+ .underoverskrift-accessibility{
+     font-size: 30px;
+     font-weight: bold;
+     padding-bottom: 10px;
+     padding-top: 25px;
 }
 /*Tekst slutt*/
-
 /*Fikser bildes størrelse og posisjon*/
-.bilde-accessibility{
-    width: 50vw;
-    height: auto;
-    padding-bottom: 50px;
-    padding-top: 30px;
+ .bilde-accessibility{
+     width: 50vw;
+     height: auto;
+     padding-bottom: 50px;
+     padding-top: 30px;
 }
 /*Bilde slutt*/
-
 /*Responsivitet*/
-@media only screen and (max-width: 900px){
-    .container-accessibility {
-        display: flex;
-        flex-direction: column;
-        padding-left: 10%;
+ @media only screen and (max-width: 900px){
+     .container-accessibility {
+         display: flex;
+         flex-direction: column;
+         padding-left: 10%;
     }
-
-    p {
-        width: 80vw;
+     p {
+         width: 80vw;
     }
-
-    .bilde-accessibility{
-        width: 90vw;
-        height: auto;
-        padding-right: 20%;
+     .bilde-accessibility{
+         width: 90vw;
+         height: auto;
+         padding-right: 20%;
     }
-    .kulepunkter {
-        padding-left: 10%;
-        box-sizing: content-box;
+     .kulepunkter {
+         padding-left: 10%;
+         box-sizing: content-box;
     }
 }
 /*Responsivitet slutt*/
