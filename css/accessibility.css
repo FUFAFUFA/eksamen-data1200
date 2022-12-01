@@ -35,6 +35,14 @@
      padding-top: 30px;
 }
 /*Bilde slutt*/
+
+a:link{
+    color: #283618;
+}
+a:hover{
+    color: #bc6c25;
+
+}
 /*Responsivitet*/
  @media only screen and (max-width: 900px){
      .container-accessibility {
