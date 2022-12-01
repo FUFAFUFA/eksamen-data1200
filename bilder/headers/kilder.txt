@@ -1,5 +1,5 @@
-location1 = https://unsplash.com/photos/FS89E75gv04
-location2 = https://unsplash.com/photos/baxEyU9FL7g
-location3 = https://unsplash.com/photos/wVoP_Q2Bg_A
-bookingforside.jpg = https://unsplash.com/photos/IRzq8sDxb7w
-location6 = https://unsplash.com/photos/yn3tA00iHBg
+location1 = https://unsplash.com/photos/FS89E75gv04              Picture taken by 99.films
+location3 = https://unsplash.com/photos/wVoP_Q2Bg_A              Picture taken by Louis Hansel
+location3NY = https://unsplash.com/photos/wVoP_Q2Bg_A            Picture taken by Louis Hansel
+location3resized = https://unsplash.com/photos/wVoP_Q2Bg_A       Picture taken by Louis Hansel
+bookingforside.jpg = https://unsplash.com/photos/IRzq8sDxb7w     Picture taken by Tristan Gassert
