@@ -69,6 +69,9 @@
      input[type=text], textarea{
          width: 80%;
     }
+    input[type=submit], textarea{
+        width: 80%;
+   }
      .underoverskift-kontakt {
          color:#BC6C25;
          font-size: 30px;
