@@ -95,6 +95,7 @@ body {
 }
 
 /* bruker "before" og "after" for å style foran og etter span element */
+/* brukte denne nettsiden til hjelp: https://alvarotrigo.com/blog/hamburger-menu-css/ */
 .nav-avogpå span::before,
 .nav-avogpå span::after{
    content: '';
