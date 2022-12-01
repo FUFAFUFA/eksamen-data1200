@@ -74,8 +74,9 @@ input[type=submit]:hover {
   padding-top: 5vw;
 }
 .knapp-booking{
-  padding-top: 3vw;
+  padding-top: 1vw;
   padding-bottom: 1vw;
+  padding-left: 11vw;
 }
 /*Størrelse på input felt*/
 input[type=text]{

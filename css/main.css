@@ -19,7 +19,6 @@ footer {
  .telefonnummer {
   color: #FEFAE0;
 }
-
 .telefonnummer:hover{
   color: #283618;
 }
@@ -32,7 +31,7 @@ footer {
  a {
      text-decoration: none;
 }
-/*linker stopp*/
+/*tar vekk Scroll bar*/
  body::-webkit-scrollbar {
      display: none;
 }
