@@ -27,12 +27,9 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   width: 400px;
-
 }
 input[type=submit]:hover {
   background-color: #283618;
-
-
 }
 /*Info om the next event*/
 .info-tekst {
@@ -110,7 +107,7 @@ input[type=sumbit]{
   color:white;
   background-position-y: 60%;
 }
-/* Kode fra blogduda.no .. kode for kart*/
+/* Kart css kode fra blogduda.no (https://blog.duda.co/responsive-google-maps-for-your-website)*/
 .map-responsive {
   padding-left: 40vw;
 }
@@ -127,8 +124,8 @@ input[type=sumbit]{
       height:300px;
  }
  .knapp-booking{
-  padding-top: 2vw;
-  padding-bottom: 1vw;
+      padding-top: 2vw;
+      padding-bottom: 1vw;
 }
   .info-tekst {
       width:80%;
@@ -156,7 +153,7 @@ input[type=sumbit]{
       width: 80%;
  }
  input[type=submit]{
-  width: 80%;
+      width: 80%;
 }
   #time{
       width: 80%;
