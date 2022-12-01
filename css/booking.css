@@ -41,7 +41,6 @@ input[type=submit]:hover {
   position: relative;
   margin-left:29%;
   width:40%;
-  text-align:center;
 }
 .container-booking {
   display: flex;
@@ -54,7 +53,6 @@ input[type=submit]:hover {
   font-size: 40px;
   font-weight: bold;
   color: #bc6c25;
-  text-align: center;
 }
 /*Style for linker*/
 .adresse-booking:link{
