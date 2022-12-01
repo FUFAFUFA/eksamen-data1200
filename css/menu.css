@@ -1,93 +1,80 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;600&display=swap');
-body {
-    background-color:#FEFAE0;
-    font-family: 'Inconsolata', monospace;
-    margin:0;
+ body {
+     background-color:#FEFAE0;
+     font-family: 'Inconsolata', monospace;
+     margin:0;
 }
-
-@media only screen and (max-width: 600px) {
-    .pris{
-        position: unset;
-        float: unset;
-   }
+ @media only screen and (max-width: 600px) {
+     .pris{
+         position: unset;
+         float: unset;
+    }
 }
-
- /* posisjonering av navn og rett slik at navn er på linje med bilde */
-* {
-    box-sizing: border-box;
-  }
-  
-   .wrapper {
-       max-width: 1024px;
-       margin-left: auto;
-       margin-right: auto;
-       margin-bottom: 50px;
-  }
-   .meny {
-       display: grid;
-       grid-template-columns: repeat(auto-fill, minmax(360px, 500px));
-       grid-gap: 1.5rem;
-  }
-
-   .meny-del {
-       position: relative;
-       display: flex;
-  }
-
-    /* mellomrom mellom bilde og info om rett */
-   .meny > .meny-del > img {
-       margin-right: 10px;
-  }
-
-    /* plassering av pris */
-   .pris {
-       position: absolute;
-       right: 10px;
-       top: 0;
-       float: right;
-  }
-
-    /* rettens navn */
-   .meny-rett {
-       grid-area: meny-rett;
-       font-size: normal;
-       font-weight: bolder;
-  }
-
-  /* "kr" kommer etter prisen */
-   .pris::after {
-       content: " kr ";
-       font-weight: bold;
-  }
-    /* gjør pris bold */
-   .pris {
-       grid-area: pris;
-       font-weight: bold;
-  }
-
-    /* beskrivelse/info om retten */
-   .beskrivelse {
-       grid-area: beskrivelse;
-       margin: 1;
-  }
-
-   h1 {
-       margin: 0;
-       font-size: 1rem;
-  }
-
-   .col-container {
-       display: flex;
-       flex-direction: row;
-       flex-wrap: wrap;
-       justify-content: flex-start;
-       align-items: stretch;
-       align-content: stretch;
-  }
-
-  /* spacing mellom allergener i tekst og ikoner */
-  .allergener {
-    padding-top: 20px;
+/* posisjonering av navn og rett slik at navn er på linje med bilde */
+ * {
+     box-sizing: border-box;
 }
-
-
+ .wrapper {
+     max-width: 1024px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-bottom: 50px;
+}
+ .meny {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(360px, 500px));
+     grid-gap: 1.5rem;
+}
+ .meny-del {
+     position: relative;
+     display: flex;
+}
+/* mellomrom mellom bilde og info om rett */
+ .meny > .meny-del > img {
+     margin-right: 10px;
+}
+/* plassering av pris */
+ .pris {
+     position: absolute;
+     right: 10px;
+     top: 0;
+     float: right;
+}
+/* rettens navn */
+ .meny-rett {
+     grid-area: meny-rett;
+     font-size: normal;
+     font-weight: bolder;
+}
+/* "kr" kommer etter prisen */
+ .pris::after {
+     content: " kr ";
+     font-weight: bold;
+}
+/* gjør pris bold */
+ .pris {
+     grid-area: pris;
+     font-weight: bold;
+}
+/* beskrivelse/info om retten */
+ .beskrivelse {
+     grid-area: beskrivelse;
+     margin: 1;
+}
+ h1 {
+     margin: 0;
+     font-size: 1rem;
+}
+ .col-container {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: flex-start;
+     align-items: stretch;
+     align-content: stretch;
+}
+/* spacing mellom allergener i tekst og ikoner */
+ .allergener {
+     padding-top: 20px;
+}
+ 
