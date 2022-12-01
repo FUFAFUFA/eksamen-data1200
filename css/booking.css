@@ -49,7 +49,7 @@ input[type=submit]:hover {
   padding-top: 1%;
   font-size: 40px;
   font-weight: bold;
-  color: #bc6c25;
+  color: #606C38;
 }
 /*Style for linker*/
 .adresse-booking:link{
@@ -67,7 +67,7 @@ input[type=submit]:hover {
   padding-top: 5vw;
   font-size: 40px;
   font-weight: bold;
-  color: #bc6c25;
+  color: #606C38;
 }
 .booking-form{
   margin-left: 33%;
