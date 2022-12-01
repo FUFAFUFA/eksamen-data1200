@@ -24,11 +24,6 @@ body {
 }
 
 
-
-.header .logo {
-	position: relative;
-}
-
 /* navbar liste elementer */
 .liste-rad{
 	display: flex;
