@@ -62,10 +62,6 @@
      grid-area: beskrivelse;
      margin: 1;
 }
- h1 {
-     margin: 0;
-     font-size: 1rem;
-}
  .col-container {
      display: flex;
      flex-direction: row;
