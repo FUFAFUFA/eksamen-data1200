@@ -33,10 +33,10 @@ input[type=submit]:hover {
 }
 /*Info om the next event*/
 .info-tekst {
-  padding-bottom:5%;
+  padding-bottom:2%;
   padding-top:2%;
   position: relative;
-  margin-left:29%;
+  margin-left: 30vw;
   width:40%;
 }
 .container-booking {
@@ -63,8 +63,8 @@ input[type=submit]:hover {
 }
 /* skjema style*/
 .underoverskrift-booking{
-  padding-bottom:2vw;
-  padding-top: 5vw;
+  padding-bottom:1vw;
+  padding-top: 3vw;
   font-size: 40px;
   font-weight: bold;
   color: #606C38;
@@ -118,12 +118,12 @@ input[type=sumbit]{
 }
 /* Kart css kode fra blogduda.no (https://blog.duda.co/responsive-google-maps-for-your-website)*/
 .map-responsive {
-  padding-left: 40vw;
+  padding-left: 32vw;
 }
 .map-responsive iframe{
   height:80%;
   width:65%;
-  margin-left:-18%;
+  margin-left:-6%;
   top:90%;
 }
 /*Responsiv kode*/
@@ -179,7 +179,7 @@ input[type=sumbit]{
   .map-responsive iframe{
       height:80%;
       width:120%;
-      margin-left: -50%;
+      margin-left: -40%;
       margin-right: -38%;
       top:90vw;
  }
