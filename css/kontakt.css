@@ -17,7 +17,7 @@
  
  .form-kontakt {
      padding:20px;
-     margin-left: 29%;
+     margin-left: 35%;
      
 }
  input[type=text], select, textarea {
@@ -65,7 +65,7 @@ input:autofill {
     font-size: 21px;
     padding-top: 4%;
     padding-bottom: 3%;
-    width: 40%;
+    width: 45%;
     position: relative;
     
 }
