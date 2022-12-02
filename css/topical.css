@@ -71,7 +71,7 @@
      color: #283618;
 }
  .link-topical:hover{
-     color: #606C38;
+     color: #bc6c25;
 }
 
 /*Responsiv topicalside*/
@@ -91,7 +91,6 @@
          flex-direction: column;
          padding-left: 10%;
     }
-
     .overskrift-topical{
         font-size: 7vw;
     }
@@ -111,6 +110,7 @@
          width: 90vw;
          height: auto;
          padding-left: 10%;
+         padding-bottom: 5vw;
     }
      .footer-p{
          padding-right: 30%;
