@@ -41,12 +41,6 @@
      top: 0;
      float: right;
 }
-/* rettens navn */
- .meny-rett {
-     grid-area: meny-rett;
-     font-size: normal;
-     font-weight: bolder;
-}
 /* "kr" kommer etter prisen */
  .pris::after {
      content: " kr ";
@@ -57,10 +51,18 @@
      grid-area: pris;
      font-weight: bold;
 }
-/* beskrivelse/info om retten */
+/* rettens navn, font-innstillinger og padding */
+.meny-rett {
+    grid-area: meny-rett;
+    font-size: normal;
+    font-weight: bolder;
+    padding-left: 10px;
+}
+/* beskrivelse/info om retten m/container (slik at de står ved siden av/under hverandre) */
  .beskrivelse {
      grid-area: beskrivelse;
      margin: 1;
+     padding-left: 10px;
 }
  .col-container {
      display: flex;
@@ -72,6 +74,15 @@
 }
 /* spacing mellom allergener i tekst og ikoner */
  .allergener {
-     padding-top: 20px;
+     padding-top: 50px;
 }
  
+.menybilde {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.allergenikon {
+    padding-top: 15px;
+    height: 50px;
+}
