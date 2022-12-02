@@ -115,7 +115,7 @@ body {
 
     #headline {
       position: absolute;
-      font-size: 4vw;
+      font-size: 5vw;
       word-wrap: break-word;
       height: 70%;
       padding-bottom: 20%;
@@ -146,15 +146,14 @@ body {
     }
   
     .knapp {
-      height: 12%;
-      width: 32%; 
+      height: 4%;
+      width: 33%; 
       position: absolute;
-      margin-top: 25vw;
-      font-size: 50vw;
+      margin-top: 26vw;
       
     }
     #bookinglink {
-        font-size: 40px;
+        font-size: 22px;
         position: absolute;
         left: 7%;
         justify-content: center;  
