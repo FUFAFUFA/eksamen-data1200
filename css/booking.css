@@ -78,6 +78,15 @@ input[type=submit]:hover {
   padding-bottom: 1vw;
 
 }
+
+/*Autofill skjema*/
+input:-webkit-autofill {
+  border: 3px solid blue;
+}
+
+input:autofill {
+  border: 3px solid blue;
+}
 /*Størrelse på input felt*/
 input[type=text]{
   width: 400px;
