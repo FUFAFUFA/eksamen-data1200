@@ -82,6 +82,7 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 30px;
+  padding-left: 85px;
   color: beige;
   background-color: #181912;
 }
@@ -158,5 +159,9 @@ body {
         left: 7%;
         justify-content: center;  
         height: 10%; 
+    }
+
+    .info-seksjon {
+    padding-left: 30px;
     }
   }
