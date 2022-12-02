@@ -46,8 +46,8 @@ body {
     border: 2px solid whitesmoke;
     border-radius: 5px;
     background-color: transparent;
-    height: 50px;
-    width: 200px;
+    height: 100px;
+    width: 400px;
     color: white;
     font-weight: bolder;
     font-size: 1.5em;
@@ -71,6 +71,7 @@ body {
  #bookinglink {
      color: #FEFAE0;
      text-decoration: none;
+     font-size: 60px;
 }
 
 
@@ -145,14 +146,14 @@ body {
     }
   
     .knapp {
-      height: 45px;
-      width: 15%; 
+      height: 10%;
+      width: 30%; 
       position: absolute;
       margin-top: 25vw;
       
     }
     #bookinglink {
-        font-size: medium;
+        font-size: 40px;
         position: absolute;
         left: 7%;
         justify-content: center;  
