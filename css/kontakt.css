@@ -6,20 +6,19 @@
 }
 /*Størrelse på overskrift*/
  #underoverskift-kontakt {
-     color:#606C38;
-     font-size: 30px;
-     padding-top: 1%;
-     padding-left: 35%;
-     padding-bottom: 3%;
+    padding-top: 1%;
+    font-size: 40px;
+    font-weight: bold;
+    color: #606C38;
+     
 }
 
 /*Fikser skjemaets størrelse og posisjon*/
- .kontakt-form{
-     padding-left: 35%;
-}
+ 
  .form-kontakt {
      padding:20px;
-     padding-left: 7%;
+     margin-left: 29%;
+     
 }
  input[type=text], select, textarea {
      width: 400px;
@@ -64,11 +63,11 @@ input:autofill {
   /*Tekst over skjema*/
 #infotekst-kontakt{
     font-size: 21px;
-    padding-right: 10%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 35%;
-    width: 70%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    width: 40%;
+    position: relative;
+    
 }
 /* Clear floats after the columns */
  .row:after {
@@ -78,14 +77,12 @@ input:autofill {
 }
 /*Responsivitet*/
  @media only screen and (max-width: 1000px){
-     h1 {
-         padding-left: 8vw;
+     
+    .form-kontakt{
+        margin-left: 20%;
     }
-     .form-kontakt{
-         padding-left: 8vw;
-    }
-     .kontakt-form{
-         padding-left: 8vw;
+    #infotekst-kontakt{
+        width: 80%;
     }
      input[type=text], textarea{
          width: 80%;
@@ -97,12 +94,7 @@ input:autofill {
          color:#606C38;
          font-size: 30px;
          padding-bottom: 1%;
-         padding-left: 19%;
+         
     }
-    #infotekst-kontakt {
-        
-        width: 100%;
-        padding-left: 5%;
-
-    }
+    
 }
