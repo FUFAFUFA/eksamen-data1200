@@ -15,27 +15,24 @@
      padding-left: 370px;
      line-height: 150%;
 }
-
 /*Fikser størrelse og posisjon på tekst*/
  p {
      width: 60vw;
 }
  .underoverskrift-accessibility{
-     font-size: 30px;
+     font-size: 40px;
      font-weight: bold;
      padding-bottom: 10px;
      padding-top: 25px;
+     color: #2e3c1e;
 }
-
 /*Fikser bildes størrelse og posisjon*/
  .bilde-accessibility{
-     width: 50vw;
-     height: auto;
-     padding-bottom: 50px;
-     padding-top: 30px;
-     
+    height: 30vw;
+    padding-top: 1%;
+    padding-left: 26%;
+    padding-bottom: 2vw;
 }
-
 /*Linker styling*/
 a:link{
     color: #283618;
@@ -48,7 +45,6 @@ a:hover{
 
 }
 
-
 /*Responsivitet*/
  @media only screen and (max-width: 900px){
      .container-accessibility {
@@ -60,9 +56,10 @@ a:hover{
          width: 80vw;
     }
      .bilde-accessibility{
-         width: 90vw;
-         height: auto;
-         padding-right: 20%;
+        width: 90vw;
+        height: auto;
+        padding-left: 10%;
+        padding-bottom: 5vw;
     }
      .kulepunkter {
          padding-left: 10%;

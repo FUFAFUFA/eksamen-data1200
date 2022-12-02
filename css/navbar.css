@@ -108,7 +108,7 @@ body {
 }
 @media(max-width: 1030px){
 
-	/* gjør hamburger meny synlig */
+	/* gjør hamburgermeny synlig */
     .nav-avogpå{
     	display: flex;
     }

@@ -44,21 +44,29 @@
 
 <!---Generelt-->
 <h2 class="underoverskrift-accessibility" tabindex="0">Generelt</h2>
-    <p>Vi har implementert tabindex på alle sidene. Vi har sikret at det ikke er fargekombinasjoner som ikke kan sees av fargeblinde. Vi har lagt til beskrivende alt-tekst på alle bilder. Vi har lagt til autofill på alle skjemaer. Vi har laget knapper ekstra store. Vi har brukt semantiske html-tagger på alle seksjoner for lettere navigering. Vi har brukt en <a href="https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25?fbclid=IwAR3kcl23dZ9g3UE6swTsOtOkjAmhMWkrN
-        n8fcviRoPUnP4vvtEPbv-Ozwq8"> <b>fargepalett</a></b> som både er estetisk tilfredsstillende og som sikrer klare kontraster mellom 
-        fargene. Generelt har vi hatt fokus på å ha stor nok fontstørrelse. 
+    <p>Vi har implementert tabindex på alle sidene. Vi har sikret at det ikke er fargekombinasjoner som ikke kan sees av fargeblinde. Vi har lagt til beskrivende alt-tekst på alle bilder. 
+        Vi har lagt til autofill på alle skjemaer. Vi har laget knapper ekstra store. Vi har brukt semantiske html-tagger på alle seksjoner for lettere navigering. 
+        Vi har brukt en <a href="https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25?fbclid=IwAR3kcl23dZ9g3UE6swTsOtOkjAmhMWkrNn8fcviRoPUnP4vvtEPbv-Ozwq8"> <b>fargepalett</a></b> 
+        som både er estetisk tilfredsstillende og som sikrer klare kontraster mellom fargene. Generelt har vi hatt fokus på å ha stor nok fontstørrelse. 
         <br>
         For alt av accessibilitytesting benyttes vi oss av <a href="https://wave.webaim.org/"><b>WAVE</b></a>.
     </p>
-
+<!--Navigasjonsbar-->
+<h2 class="underoverskrift-accessibility" tabindex="0">Navigasjonsbar</h2>
+    <p>Vi har brukt PC og smarttelefon med forskjellige skjermstørrelser for å teste funksjonaliteten. 
+        <br><br>
+        Accessibilitytest: error i navigasjonsbaren som viser til en "empty form label". Vi ser ikke på dette som en error, men en 
+        metode som ble brukt for å lage en hamburgermeny med kun HTML og CSS. Testen mener at alt-teksten til logo som er satt til "logo" er mistenkelig.
+        Dette har vi valgt å se bort ifra. Testen mener også at det er overflødig å linke til hjem i logo når man linker til hjem i hjem-knappen. 
+        Dette er også noe vi har valgt å se bort fra.
+    </p>
 <!--Index/Forside-->
 <h2 class="underoverskrift-accessibility" tabindex="0">Index</h2>
     <p>Headeren en illustrasjon av våre lokaler slik at brukere kan få et innblikk i hvordan det ser ut hos oss. Headeren har vi jobbet med slik
         at den ikke skal forstyrre teksten for mye. Dette gjorde vi ved å legge et filter på header som gjør bildet noe mørkere. 
         <br><br>
         Accessibilitytest: testen mener det er lav kontrast på hovedteksten over bildet og knappen. Vi har som nevnt med intensjon gjort 
-        bakgrunnen mørk og teksten og knappen hvit.
-    <p>     
+        bakgrunnen mørk og teksten og knappen hvit.</p>     
 
 <!--Meny-->
 <h2 class="underoverskrift-accessibility" tabindex="0">Meny</h2>
@@ -68,9 +76,7 @@
         Når det kommer til allergener valgte vi å både bruke tekst og ikoner som skal illustrere hva slags allergener det er i retten; enkelt
         å få øye på!
     <br><br>
-    <p>Accessibilitytest: hovedsakelig alerts på bildetittel og alternativ tekst som er brukt er lik. Dette er vi klar over og vi mener 
-        at det er riktig av oss å bruke lik tittel og alternativ tekst i denne sammengeng.
-    </p>
+    <p>Accessibilitytest: ingen alerts knyttet til denne siden, men navigasjonsbar.</p>
    
 
 <!--Booking-->
@@ -79,8 +85,7 @@
         er lokalisert. Dette gjorde vi blant annet ved å sette inn et interaktivt kart fra Google Maps og ha viktig info i fet tekst.
         I tillegg har vi med et skjema som er lett oversiktlig og å navigere i.
     <br><br>
-    <p>Accessibilitytest:
-</p>
+    <p>Accessibilitytest: ingen varsler knyttet til siden, men navigasjonsbar.</p>
 
 <!--Kontakt-->
 <h2 class="underoverskrift-accessibility"tabindex="0">Kontakt</h2>
@@ -92,21 +97,11 @@
             ønsker å sende melding om.</li>
     </ul>
     <br>
-    <p>Accessibilitytest:
-</p>
-
-<h2 class="underoverskrift-accessibility" tabindex="0">Navigasjonsbar</h2>
-<p>Vi har brukt PC og smarttelefon med forskjellige skjermstørrelser for å teste funksjonaliteten. 
-    <br><br>
-    Accessibilitytest: error i navigasjonsbaren som viser til en "empty form label". Vi ser ikke på dette som en error, men en 
-    metode som ble brukt for å lage en hamburgermeny med kun HTML og CSS. Testen mener at alt-teksten til logo som er satt til "logo" er mistenkelig.
-    Dette har vi valgt å se bort ifra. Testen mener også at det er overflødig å linke til hjem i logo når man linker til hjem i hjem-knappen. 
-    Dette er også noe vi har valgt å se bort fra.
-</p>
+    <p>Accessibilitytest: ingen varsler knyttet til siden, men navigasjonsbar.</p>
 </section>
 <!---Hovedtekst slutt-->
 
-<!--Bilde hentet fra https://www.designboom.com/art/thumbs-ammo-replaces-movie-guns-with-a-thumbs-up/ laget av thumbsandammo-->
-<img  tabindex="0" src="bilder/accessibility/thumbs up.png" class="bilde-accessibility" title="Tommel opp" alt="Bildet viser Vincent og Jules fra Pulp Fiction. På bildet har de fått erstattet pistolene sine med en tommel opp">
+<img  tabindex="0" src="bilder/accessibility/lilledemon.jpeg" class="bilde-accessibility" title="Lille demon" alt="Bildet viser en gammel tegning av et dragelignende vesen fra en middelalderbok.">
+<!--Bilde hentet fra https://collections.library.yale.edu/catalog/2004052 (Hours, Use of Rome. General Collection, Beinecke Rare Book and Manuscript Library, Yale University.)-->
 </div>
 </html>

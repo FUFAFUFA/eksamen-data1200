@@ -49,7 +49,7 @@ input[type=submit]:hover {
   padding-top: 1%;
   font-size: 40px;
   font-weight: bold;
-  color: #606C38;
+  color: #2e3c1e;
 }
 /*Style for linker*/
 .adresse-booking:link{
@@ -67,7 +67,7 @@ input[type=submit]:hover {
   padding-top: 3vw;
   font-size: 40px;
   font-weight: bold;
-  color: #606C38;
+  color: #2e3c1e;
 }
 .booking-form{
   margin-left: 36vw;
@@ -109,12 +109,10 @@ input[type=sumbit]{
 /*Header*/
 .overlay {
   filter:brightness(80%);
-  background-image: url(../bilder/headers/bookingforside.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   height:30vw;
+  width: 100%;
   color:white;
-  background-position-y: 60%;
+  object-fit: cover;
 }
 /* Kart css kode fra blogduda.no (https://blog.duda.co/responsive-google-maps-for-your-website)*/
 .map-responsive {
