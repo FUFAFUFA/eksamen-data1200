@@ -58,7 +58,7 @@
     font-weight: bolder;
     padding-left: 10px;
 }
-/* beskrivelse/info om retten m/container (slik at de står ved siden av/under hverandre) */
+/* beskrivelse/info om retten m/container (slik at meny kommer ved siden av/under hverandre) */
  .beskrivelse {
      grid-area: beskrivelse;
      margin: 1;
