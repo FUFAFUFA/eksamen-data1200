@@ -9,15 +9,12 @@
     padding-top: 1%;
     font-size: 40px;
     font-weight: bold;
-    color: #606C38;
-     
+    color: #2e3c1e;    
 }
-
 /*Fikser skjemaets størrelse og posisjon*/
  .form-kontakt {
      margin-left: 36vw;
      margin-bottom: 35px;
-     
 }
  input[type=text], select, textarea {
      width: 400px;
@@ -35,7 +32,6 @@
  .knapp-kontakt{
     padding-top: 1vw;
     padding-bottom: 1vw;
-  
 }
  input[type=submit] {
      background-color: #606C38;
@@ -49,24 +45,20 @@
  input[type=submit]:hover {
      background-color: #454e25;
 }
-
 /*Autofill*/
 input:-webkit-autofill {
     border: 3px solid blue;
   }
-
 input:autofill {
     border: 3px solid blue;
   }
-
   /*Tekst over skjema*/
 #infotekst-kontakt{
     font-size: 21px;
     padding-top: 4%;
     padding-bottom: 3%;
     width: 45%;
-    position: relative;
-    
+    position: relative;   
 }
 /* Clear floats after the columns */
  .row:after {
