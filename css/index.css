@@ -115,7 +115,7 @@ body {
 
     #headline {
       position: absolute;
-      font-size: 3vw;
+      font-size: 4vw;
       word-wrap: break-word;
       height: 70%;
       padding-bottom: 20%;
@@ -132,11 +132,11 @@ body {
     }
 
     .åpningstider {
-      font-size: 15px;
+      font-size: 16px;
     }
 
     .diverse-info {
-      font-size: 15px;
+      font-size: 16px;
     }
 
     .bakgrunnsbilde {
@@ -150,6 +150,7 @@ body {
       width: 32%; 
       position: absolute;
       margin-top: 25vw;
+      font-size: 50vw;
       
     }
     #bookinglink {
