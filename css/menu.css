@@ -9,7 +9,6 @@
          position: unset;
          float: unset;
     }
-    
 }
 /* posisjonering av navn og rett slik at navn er på linje med bilde */
  * {
@@ -76,12 +75,10 @@
  .allergener {
      padding-top: 50px;
 }
- 
 .menybilde {
     max-width: 200px;
     max-height: 200px;
 }
-
 .allergenikon {
     padding-top: 15px;
     height: 50px;
