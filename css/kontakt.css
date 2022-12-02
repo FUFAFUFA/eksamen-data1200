@@ -7,15 +7,16 @@
 /*Størrelse på overskrift*/
  #underoverskift-kontakt {
      color:#606C38;
-     margin-left: 35vw;
      font-size: 30px;
-     
      padding-top: 1%;
+     left: 2vw;
+     position: relative;
+     text-align: center;
 }
 
 /*Fikser skjemaets størrelse og posisjon*/
  .kontakt-form{
-     padding-left: 36%;
+     padding-left: 35%;
 }
  .form-kontakt {
      padding:20px;
@@ -56,11 +57,13 @@
     flex-direction: row;
     justify-content:center;
     font-size: 21px;
-    padding-left: 30vw;
     padding-right: 35vw;
     padding-top: 4%;
     padding-bottom: 3%;
-    
+    left: 33vw;
+    position: relative;
+    text-align: center;
+    width: 70%;
 }
 /* Clear floats after the columns */
  .row:after {
@@ -88,11 +91,13 @@
      #underoverskift-kontakt {
          color:#606C38;
          font-size: 30px;
-         margin-left: 0%;
+         left:-7vw;
          padding-bottom: 1%;
     }
     #infotekst-kontakt {
-        padding-left: 6%;
-        padding-right: 10%;
+        
+        width: 100%;
+        left:14vw;
+
     }
 }
