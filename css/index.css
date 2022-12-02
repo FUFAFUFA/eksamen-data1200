@@ -46,14 +46,14 @@ body {
     border: 2px solid whitesmoke;
     border-radius: 5px;
     background-color: transparent;
-    height: 90px;
+    height: 80px;
     width: 350px;
     color: white;
     font-weight: bolder;
     font-size: 1.5em;
     text-align: center;
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
-    margin-left: 8%;
+    margin-left: 6%;
     margin-top: 28%;
 }
 
@@ -146,8 +146,8 @@ body {
     }
   
     .knapp {
-      height: 10%;
-      width: 30%; 
+      height: 15%;
+      width: 20%; 
       position: absolute;
       margin-top: 25vw;
       
