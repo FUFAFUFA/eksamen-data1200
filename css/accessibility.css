@@ -6,13 +6,13 @@
 }
  .kulepunkter {
      width: 60vw;
-     padding-left: 5%;
+     padding-left: 3%;
 }
 /*Fikser posisjon til flexbokser*/
  .container-accessibility {
      display: flex;
      flex-direction: column;
-     padding-left: 370px;
+     padding-left: 25%;
      line-height: 150%;
 }
 /*Fikser størrelse og posisjon på tekst*/
