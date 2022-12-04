@@ -112,14 +112,15 @@ body {
     .nav-avogpå{
     	display: flex;
     }
-	
+
 	/* setter den originale navbaren til usynlig på mindre skjermer */
 	/* styler den slik at den passer til responsiv hamburger meny */
     .header .navbar{
 		z-index: 1;
     	position: absolute;
 		margin-left: 0;
-		top: 15%;
+		top: 115px;
+		margin-top: 15px;
     	width: 100%;
     	background-color: #606C38;
     	opacity:0;
@@ -135,7 +136,7 @@ body {
 		padding: 10px;
     }
 	.header .navbar .nav-ul li a{
-		padding: 15px;
+		padding: 10px;
 		color: #FEFAE0;
 	}
 
